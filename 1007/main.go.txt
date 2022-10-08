@@ -1,3 +1,4 @@
+/*
 //変数を書く
 package
 func main() {
@@ -106,3 +107,4 @@ array = append(array[:1], array[2:]...)
 var tuple = [2]string{"モモ", "ミミ"}
 //タプルの要素を取得する
 tuple[0]
+*/;

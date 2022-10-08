@@ -166,7 +166,7 @@ let unknown: unknown = "Taro";
 
 //declare型
 //declare型は型を指定しない
-declare function require(name: string): any;
+//declare function require(name: string): any;
 
 //freshness
 const obj6 = {
