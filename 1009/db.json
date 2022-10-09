@@ -1,0 +1,44 @@
+//query prisma
+{
+  "data": {
+    "id": 1,
+    "name": "test",
+    "email": ""
+   }
+}
+//query prisma
+{
+  "data": {
+    "id": 2,
+    "name": "test",
+    "email": "",
+   }
+}
+//query where
+{
+  "where": {
+    "id": 1
+  }
+}
+//mutation update
+{
+  "data": {
+    "name": "test2"
+  }
+}
+//query prisma
+{
+  "data": {
+    "id": 1,
+    "name": "test2",
+    "email": ""
+   }
+}
+//query prisma
+{
+  "data": {
+    "id": 2,
+    "name": "test",
+    "email": "",
+   }
+}
