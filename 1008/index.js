@@ -1029,4 +1029,1070 @@ const main25 = () => {
 console.log(main25());
 //callは、関数を呼び出します。callの構文は、次のようになります。
 //実行の結果
+//イベントを追加する
+document.addEventListener("DOMContentLoaded", () => {
+   const main = () => {
+      console.log("hello world");
+   }
+   main();
+})
+//イベントを追加するには、addEventListenerを使用します。addEventListenerの構文は、次のようになります。
+//実行の結果
+//hello world
+//document.getElementById
+const main26 = () => {
+   const element = document.getElementById("main26");
+   element.textContent = "hello world";
+}
+console.log(main26());
+//document.getElementByIdは、idを指定して要素を取得します。document.getElementByIdの構文は、次のようになります。
+//実行の結果
+//hello world
+//document.getElementsByClassName
+const main27 = () => {
+   const elements = document.getElementsByClassName("main27");
+   for (let i = 0; i < elements.length; i++) {
+      elements[i].textContent = "hello world";
+   }
+}
+console.log(main27());
+//document.getElementsByClassNameは、クラス名を指定して要素を取得します。document.getElementsByClassNameの構文は、次のようになります。
+//実行の結果
+//hello world
+//element.textContent
+const main28 = () => {
+   const element = document.getElementById("main28");
+   element.textContent = "hello world";
+}
+console.log(main28());
+//element.textContentは、要素のテキストを取得または設定します。element.textContentの構文は、次のようになります。
+//実行の結果
+//hello world
+//document.querySelector
+const main29 = () => {
+   const element = document.querySelector("#main29");
+   element.textContent = "hello world";
+}
+console.log(main29());
+//document.querySelectorは、CSSセレクターを指定して要素を取得します。document.querySelectorの構文は、次のようになります。
+//実行の結果
+//hello world
+//document.querySelectorAll
+const main30 = () => {
+   const elements = document.querySelectorAll(".main30");
+   for (let i = 0; i < elements.length; i++) {
+      elements[i].textContent = "hello world";
+   }
+}
+console.log(main30());
+//document.querySelectorAllは、CSSセレクターを指定して要素を取得します。document.querySelectorAllの構文は、次のようになります。
+//実行の結果
+//hello world
+//createElement
+const main31 = () => {
+   const element = document.createElement("div");
+   element.textContent = "hello world";
+   document.body.appendChild(element);
+}
+console.log(main31());
+//createElementは、要素を作成します。createElementの構文は、次のようになります。
+//実行の結果
+//hello world
+//element.appendChild
+const main32 = () => {
+   const element = document.createElement("div");
+   element.textContent = "hello world";
+   document.body.appendChild(element);
+}
+console.log(main32());
+//element.appendChildは、要素を追加します。element.appendChildの構文は、次のようになります。
+//実行の結果   
+//hello world
+//element.firstElementChild
+const main33 = () => {
+   const element = document.getElementById("main33");
+   element.firstElementChild.textContent = "hello world";
+}
+console.log(main33());
+//element.firstElementChildは、要素の最初の子要素を取得します。element.firstElementChildの構文は、次のようになります。
+//実行の結果
+//hello world
+//element.lastElementChild
+const main34 = () => {
+   const element = document.getElementById("main34");
+   element.lastElementChild.textContent = "hello world";
+}
+console.log(main34());
+//element.lastElementChildは、要素の最後の子要素を取得します。element.lastElementChildの構文は、次のようになります。
+//実行の結果
+//hello world
+//element.remove()
+const main35 = () => {
+   const element = document.getElementById("main35");
+   element.remove();
+}
+console.log(main35());
+//element.remove()は、要素を削除します。element.remove()の構文は、次のようになります。
+//実行の結果
+//hello world
+//element.innerHtml
+const main36 = () => {
+   const element = document.getElementById("main36");
+   element.innerHTML = "hello world";
+}
+console.log(main36());
+//element.innerHtmlは、要素のHTMLを取得または設定します。element.innerHtmlの構文は、次のようになります。
+//実行の結果
+//hello world
+//element.setAttribute
+const main37 = () => {
+   const element = document.getElementById("main37");
+   element.setAttribute("class", "main37");
+}
+console.log(main37());
+//element.setAttributeは、要素の属性を設定します。element.setAttributeの構文は、次のようになります。
+//実行の結果
+//hello world
+//window.content
+const main38 = () => {
+   window.content = "hello world";
+}
+console.log(main38());
+//window.contentは、ウィンドウのコンテンツを取得または設定します。window.contentの構文は、次のようになります。
+//実行の結果
+//hello world
+//window.open
+const main39 = () => {
+   window.open("https://www.google.com/");
+}
+console.log(main39());
+//window.openは、新しいウィンドウを開きます。window.openの構文は、次のようになります。
+//実行の結果
+//hello world
+//window.onload
+const main40 = () => {
+   window.onload = () => {
+      const element = document.getElementById("main40");
+      element.textContent = "hello world";
+   }
+}
+console.log(main40());
+//window.onloadは、ウィンドウが読み込まれたときに実行されるイベントです。window.onloadの構文は、次のようになります。
+//実行の結果
+//hello world
+//innerWidth
+const main41 = () => {
+   const element = document.getElementById("main41");
+   element.textContent = window.innerWidth;
+}
+console.log(main41());
+//innerWidthは、ウィンドウの幅を取得します。innerWidthの構文は、次のようになります。
+//実行の結果
+//hello world
+//history
+const main42 = () => {
+   history.back();
+}
+console.log(main42());
+//historyは、ブラウザの履歴を操作します。historyの構文は、次のようになります。
+//実行の結果
+//hello world
+//e.preventDefault
+const main43 = () => {
+   const element = document.getElementById("main43");
+   element.addEventListener("click", (e) => {
+      e.preventDefault();
+      element.textContent = "hello world";
+   });
+}
+console.log(main43());
+//e.preventDefaultは、イベントのデフォルトの動作をキャンセルします。e.preventDefaultの構文は、次のようになります。
+//実行の結果
+//hello world
+//devicePixelRatio
+const main44 = () => {
+   const element = document.getElementById("main44");
+   element.textContent = devicePixelRatio;
+}
+console.log(main44());
+//devicePixelRatioは、デバイスのピクセル比を取得します。devicePixelRatioの構文は、次のようになります。
+//実行の結果
+//hello world
+//配列のメソッド,push
+const main45 = () => {
+   const array = [1, 2, 3];
+   array.push(4);
+   console.log(array);
+}
+console.log(main45());
+//配列のメソッド,pushは、配列の末尾に要素を追加します。配列のメソッド,pushの構文は、次のようになります。
+//pop
+const main46 = () => {
+   const array = [1, 2, 3];
+   array.pop();
+   console.log(array);
+}
+console.log(main46());
+//配列のメソッド,popは、配列の末尾の要素を削除します。配列のメソッド,popの構文は、次のようになります。
+//shift
+const main47 = () => {
+   const array = [1, 2, 3];
+   array.shift();
+   console.log(array);
+}
+console.log(main47());
+//配列のメソッド,shiftは、配列の先頭の要素を削除します。配列のメソッド,shiftの構文は、次のようになります。
+//unshift
+const main48 = () => {
+   const array = [1, 2, 3];
+   array.unshift(0);
+   console.log(array);
+}
+console.log(main48());
+//配列のメソッド,unshiftは、配列の先頭に要素を追加します。配列のメソッド,unshiftの構文は、次のようになります。
+//splice
+const main49 = () => {
+   const array = [1, 2, 3];
+   array.splice(1, 0, 4);
+   console.log(array);
+}
+console.log(main49());
+//配列のメソッド,spliceは、配列の指定した位置に要素を追加または削除します。配列のメソッド,spliceの構文は、次のようになります。
+//reduce
+const main50 = () => {
+
+   const array = [1, 2, 3];
+   const result = array.reduce((a, b) => {
+      return a + b;
+   });
+   console.log(result);
+}
+console.log(main50());
+//配列のメソッド,reduceは、配列の要素を一つにまとめます。配列のメソッド,reduceの構文は、次のようになります。
+//map
+const main51 = () => {
+   const array = [1, 2, 3];
+   const result = array.map((a) => {
+      return a * 2;
+   });
+   console.log(result);
+}
+console.log(main51());
+//配列のメソッド,mapは、配列の要素を変換します。配列のメソッド,mapの構文は、次のようになります。
+//filter
+const main52 = () => {
+   const array = [1, 2, 3];
+   const result = array.filter((a) => {
+      return a % 2 === 0;
+   });
+   console.log(result);
+}
+console.log(main52());
+//配列のメソッド,filterは、配列の要素を絞り込みます。配列のメソッド,filterの構文は、次のようになります。
+//find
+const main53 = () => {
+   const array = [1, 2, 3];
+   const result = array.find((a) => {
+      return a === 2;
+   });
+   console.log(result);
+}
+console.log(main53());
+//配列のメソッド,findは、配列の要素を検索します。配列のメソッド,findの構文は、次のようになります。
+//findIndex
+const main54 = () => {
+   const array = [1, 2, 3];
+   const result = array.findIndex((a) => {
+      return a === 2;
+   });
+   console.log(result);
+}
+console.log(main54());
+//配列のメソッド,findIndexは、配列の要素のインデックスを検索します。配列のメソッド,findIndexの構文は、次のようになります。
+//includes
+const main55 = () => {
+   const array = [1, 2, 3];
+   const result = array.includes(2);
+   console.log(result);
+}
+console.log(main55());
+//配列のメソッド,includesは、配列の要素が含まれているかを判定します。配列のメソッド,includesの構文は、次のようになります。
+//forEach
+const main56 = () => {
+   const array = [1, 2, 3];
+   array.forEach((a) => {
+      console.log(a);
+   });
+}
+console.log(main56());
+//配列のメソッド,forEachは、配列の要素を順番に処理します。配列のメソッド,forEachの構文は、次のようになります。
+//every
+const main57 = () => {
+   const array = [1, 2, 3];
+   const result = array.every((a) => {
+      return a % 2 === 0;
+   });
+   console.log(result);
+}
+console.log(main57());
+//配列のメソッド,everyは、配列の要素がすべて条件を満たしているかを判定します。配列のメソッド,everyの構文は、次のようになります。
+//some
+const main58 = () => {
+   const array = [1, 2, 3];
+   const result = array.some((a) => {
+      return a % 2 === 0;
+   });
+   console.log(result);
+}
+console.log(main58());
+//配列のメソッド,someは、配列の要素のいずれかが条件を満たしているかを判定します。配列のメソッド,someの構文は、次のようになります。
+//sort
+const main59 = () => {
+   const array = [1, 2, 3];
+   const result = array.sort((a, b) => {
+      return a - b;
+   });
+   console.log(result);
+}
+console.log(main59());
+//配列のメソッド,sortは、配列の要素をソートします。配列のメソッド,sortの構文は、次のようになります。
+//useEffect
+const main60 = () => {
+   const [count, setCount] = useState(0);
+   useEffect(() => {
+      console.log('useEffect');
+   }, [count]);
+   return (
+      <div>
+         <p>{count}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+      </div>
+   );
+}
+console.log(main60());
+//useEffectは、コンポーネントがマウントされた時、または、更新された時に処理を実行します。useEffectの構文は、次のようになります。
+//useRef
+const main61 = () => {
+   const inputRef = useRef(null);
+   const onClick = () => {
+      inputRef.current.focus();
+   };
+   return (
+      <div>
+         <input type="text" ref={inputRef} />
+         <button onClick={onClick}>フォーカス</button>
+      </div>
+   );
+}
+console.log(main61());
+//useRefは、DOMを操作するために使用します。useRefの構文は、次のようになります。
+//useContext
+const main62 = () => {
+   const [count, setCount] = useState(0);
+   const value = useMemo(() => {
+      return { count, setCount };
+   }, [count]);
+   return (
+      <CountContext.Provider value={value}>
+         <Counter />
+      </CountContext.Provider>
+   );
+}
+const Counter = () => {
+   const { count, setCount } = useContext(CountContext);
+   return (
+      <div>
+         <p>{count}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+      </div>
+   );
+}
+const CountContext = createContext(null);
+console.log(main62());
+//useContextは、コンテキストを使用するために使用します。useContextの構文は、次のようになります。
+//useReducer
+const main63 = () => {
+   const [state, dispatch] = useReducer(reducer, initialState);
+   return (
+      <div>
+         <p>{state.count}</p>
+         <button onClick={() => dispatch({ type: 'increment' })}>+1</button>
+      </div>
+   );
+}
+const initialState = { count: 0 };
+const reducer = (state, action) => {
+   switch (action.type) {
+      case 'increment':
+         return { count: state.count + 1 };
+      default:
+         return state;
+   }
+}
+console.log(main63());
+//useReducerは、stateとdispatchを返します。useReducerの構文は、次のようになります。
+//useCallback
+const main64 = () => {
+   const [count, setCount] = useState(0);
+   const onClick = useCallback(() => {
+      setCount(count + 1);
+   }, [count]);
+   return (
+      <div>
+         <p>{count}</p>
+         <button onClick={onClick}>+1</button>
+      </div>
+   );
+}
+console.log(main64());
+//useCallbackは、関数をキャッシュします。useCallbackの構文は、次のようになります。
+//useMemo
+const main65 = () => {
+   const [count, setCount] = useState(0);
+   const onClick = useCallback(() => {
+      setCount(count + 1);
+   }, [count]);
+   const double = useMemo(() => {
+      return count * 2;
+   }, [count]);
+   return (
+      <div>
+         <p>{double}</p>
+         <button onClick={onClick}>+1</button>
+      </div>
+   );
+}
+console.log(main65());
+//useMemoは、値をキャッシュします。useMemoの構文は、次のようになります。
+//useLayoutEffect
+const main66 = () => {
+   const [count, setCount] = useState(0);
+   useLayoutEffect(() => {
+      console.log('useLayoutEffect');
+   }, [count]);
+   return (
+      <div>
+         <p>{count}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+      </div>
+   );
+}
+console.log(main66());
+//useLayoutEffectは、useEffectと同じく、コンポーネントがマウントされた時、または、更新された時に処理を実行します。useLayoutEffectの構文は、次のようになります。
+//useImperativeHandle
+const main67 = () => {
+   const ref = useRef(null);
+   const onClick = () => {
+      ref.current.focus();
+   };
+   return (
+      <div>
+         <Input ref={ref} />
+         <button onClick={onClick}>フォーカス</button>
+      </div>
+   );
+}
+const Input = forwardRef((props, ref) => {
+   const inputRef = useRef(null);
+   useImperativeHandle(ref, () => ({
+      focus: () => {
+         inputRef.current.focus();
+      },
+   }));
+   return <input type="text" ref={inputRef} />;
+})
+console.log(main67());
+//useImperativeHandleは、子コンポーネントの関数を親コンポーネントから呼び出すために使用します。useImperativeHandleの構文は、次のようになります。
+//useDebugValue
+const main68 = () => {
+   const [count, setCount] = useState(0);
+   useDebugValue(count);
+   return (
+      <div>
+         <p>{count}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+      </div>
+   );
+}
+console.log(main68());
+//useDebugValueは、カスタムフックのデバッグ用のラベルを設定します。useDebugValueの構文は、次のようになります。
+//useTransition
+const main69 = () => {
+   const [count, setCount] = useState(0);
+   const [isPending, startTransition] = useTransition();
+   return (
+      <div>
+         <p>{count}</p>
+         <button
+            onClick={() => {
+               startTransition(() => {
+                  setCount(count + 1);
+               });
+            }}
+         >
+            {isPending ? 'pending...' : '+1'}
+         </button>
+      </div>
+   );
+}
+console.log(main69());
+//useTransitionは、非同期処理を行う際に、ユーザーの操作をブロックすることなく、コンポーネントを更新するために使用します。useTransitionの構文は、次のようになります。
+//useDeferredValue
+const main70 = () => {
+   const [count, setCount] = useState(0);
+   const deferredCount = useDeferredValue(count, { timeoutMs: 3000 });
+   return (
+      <div>
+         <p>{deferredCount}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+      </div>
+   );
+}
+console.log(main70());
+//useDeferredValueは、非同期処理を行う際に、ユーザーの操作をブロックすることなく、コンポーネントを更新するために使用します。useDeferredValueの構文は、次のようになります。
+//useOpaqueIdentifier
+const main71 = () => {
+   const [count, setCount] = useState(0);
+   const id = useOpaqueIdentifier();
+   return (
+      <div>
+         <p>{id}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+      </div>
+   );
+}
+console.log(main71());
+//useOpaqueIdentifierは、コンポーネントの再レンダリング時に、一意のIDを生成します。useOpaqueIdentifierの構文は、次のようになります。
+//useMutableSource
+const main72 = () => {
+   const [count, setCount] = useState(0);
+   const source = useMemo(() => new Source(), []);
+   return (
+      <div>
+         <p>{count}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+         <Child source={source} />
+      </div>
+   );
+}
+const Child1 = ({ source }) => {
+   const value = useMutableSource(source, getSnapshot, subscribe);
+   return <p>{value}</p>;
+}
+console.log(main72());
+//useMutableSourceは、コンポーネントの再レンダリング時に、一意のIDを生成します。useMutableSourceの構文は、次のようになります。
+//useSyncExternalStore
+const main73 = () => {
+   const [count, setCount] = useState(0);
+   const store = useMemo(() => new Store(), []);
+   return (
+      <div>
+         <p>{count}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+         <Child store={store} />
+      </div>
+   );
+}
+const Child2 = ({ store }) => {
+   const value = useSyncExternalStore(subscribe, getSnapshot, store);
+   return <p>{value}</p>;
+}
+console.log(main73());
+//useSyncExternalStoreは、コンポーネントの再レンダリング時に、一意のIDを生成します。useSyncExternalStoreの構文は、次のようになります。
+//useMutableSource
+const main74 = () => {
+   const [count, setCount] = useState(0);
+   const source = useMemo(() => new Source(), []);
+   return (
+      <div>
+         <p>{count}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+         <Child source={source} />
+      </div>
+   );
+}
+const Child3 = ({ source }) => {
+   const value = useMutableSource(source, getSnapshot, subscribe);
+   return <p>{value}</p>;
+}
+console.log(main74());
+//useMutableSourceは、コンポーネントの再レンダリング時に、一意のIDを生成します。useMutableSourceの構文は、次のようになります。
+//useSyncExternalStore
+const main75 = () => {
+   const [count, setCount] = useState(0);
+   const store = useMemo(() => new Store(), []);
+   return (
+      <div>
+         <p>{count}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+         <Child store={store} />
+      </div>
+   );
+}
+const Child = ({ store }) => {
+   const value = useSyncExternalStore(subscribe, getSnapshot, store);
+   return <p>{value}</p>;
+}
+console.log(main75());
+//useSyncExternalStoreは、コンポーネントの再レンダリング時に、一意のIDを生成します。useSyncExternalStoreの構文は、次のようになります。
+//useMutableSource
+const main76 = () => {
+   const [count, setCount] = useState(0);
+   const source = useMemo(() => new Source(), []);
+   return (
+      <div>
+         <p>{count}</p>
+         <button onClick={() => setCount(count + 1)}>+1</button>
+         <Child source={source} />
+      </div>
+   );
+}
+const Child5 = ({ source }) => {  
+   const value = useMutableSource(source, getSnapshot, subscribe);
+   return <p>{value}</p>;
+}
+console.log(main76());
+//useMutableSourceは、コンポーネントの再レンダリング時に、一意のIDを生成します。useMutableSourceの構文は、次のようになります。
+//chakraui
+const main77 = () => {
+   return (
+      <ChakraProvider>
+         <Button colorScheme="teal">Button</Button>
+      </ChakraProvider>
+   );
+}
+console.log(main77());
+//chakrauiの構文は、次のようになります。
+//materialui
+const main78 = () => {
+   return (
+      <ThemeProvider theme={theme}>
+         <Button variant="contained" color="primary">
+            Hello World
+         </Button>
+      </ThemeProvider>
+   );
+}
+console.log(main78());
+//materialuiの構文は、次のようになります。
+//reactstrap
+const main79 = () => {
+
+   return (
+      <div>
+         <Button color="primary">primary</Button>{' '}
+         <Button color="secondary">secondary</Button>{' '}
+         <Button color="success">success</Button>{' '}
+         <Button color="info">info</Button>{' '}
+         <Button color="warning">warning</Button>{' '}
+         <Button color="danger">danger</Button>{' '}
+         <Button color="link">link</Button>
+      </div>
+   );
+}
+console.log(main79());
+//reactstrapの構文は、次のようになります。
+//nextAuth
+const main80 = () => {
+   return (
+      <div>
+         <h1>NextAuth.js</h1>
+         <p>
+            <a href="/api/auth/signin">Sign in</a>
+         </p>
+      </div>
+   );
+}
+console.log(main80());
+//nextAuthの構文は、次のようになります。
+//nextjs
+const main81 = () => {
+   return (
+      <div>
+         <h1>Next.js</h1>
+         <p>
+            <a href="/about">About</a>
+         </p>
+      </div>
+   );
+}
+console.log(main81());
+//nextjsの構文は、次のようになります。
+//getServerSideProps
+const main82 = () => {
+   return (
+      <div>
+         <h1>Get Server Side Props</h1>
+      </div>
+   );
+}
+export const getServerSideProps = async () => {
+   return {
+      props: {},
+   };
+}
+console.log(main82());
+//getServerSidePropsの構文は、次のようになります。
+//userEvent
+const main83 = () => {
+   const { getByRole } = render(<Button>Click me</Button>);
+   userEvent.click(getByRole('button'));
+}
+console.log(main83());
+//userEventの構文は、次のようになります。
+//reactTestingLibrary
+const main84 = () => {
+   const { getByText } = render(<Button>Click me</Button>);
+   fireEvent.click(getByText('Click me'));
+}
+console.log(main84());
+//reactTestingLibraryの構文は、次のようになります。
+//reactHookForm
+const main85 = () => {
+   const { register, handleSubmit, watch, errors } = useForm();
+   const onSubmit = data => console.log(data);
+   console.log(watch('example'));
+   return (
+      <form onSubmit={handleSubmit(onSubmit)}>
+         <input name="example" defaultValue="test" ref={register} />
+         <input name="exampleRequired" ref={register({ required: true })} />
+         {errors.exampleRequired && <span>This field is required</span>}
+         <input type="submit" />
+      </form>
+   );
+}
+console.log(main85());
+//reactHookFormの構文は、次のようになります。
+//reactQuery
+const main86 = () => {
+
+   const { isLoading, error, data } = useQuery('repoData', () =>
+      fetch('https://api.github.com/repos/tannerlinsley/react-query').then(res =>
+         res.json()
+      )
+   );
+
+   if (isLoading) return 'Loading...';
+
+   if (error) return 'An error has occurred: ' + error.message;
+
+   return (
+      <div>
+         <h1>{data.name}</h1>
+         <p>{data.description}</p>
+         <strong>👀 {data.subscribers_count}</strong>{' '}
+         <strong>✨ {data.stargazers_count}</strong>{' '}
+         <strong>🍴 {data.forks_count}</strong>
+      </div>
+   );
+}
+console.log(main86());
+//reactQueryの構文は、次のようになります。
+//reactRouter
+const main87 = () => {
+   return (
+      <Router>
+         <div>
+            <ul>
+               <li>
+                  <Link to="/">Home</Link>
+               </li>
+               <li>
+                  <Link to="/about">About</Link>
+               </li>
+               <li>
+                  <Link to="/users">Users</Link>
+               </li>
+            </ul>
+            <hr />
+            <Switch>
+               <Route exact path="/">
+                  <Home />
+               </Route>
+               <Route path="/about">
+                  <About />
+               </Route>
+               <Route path="/users">
+                  <Users />
+               </Route>
+            </Switch>
+         </div>
+      </Router>
+   );
+}
+console.log(main87());
+//reactRouterの構文は、次のようになります。
+//swr
+const main88 = () => {
+   const { data, error } = useSWR('/api/user', fetcher);
+
+   if (error) return <div>failed to load</div>;
+   if (!data) return <div>loading...</div>;
+   return <div>hello {data.name}!</div>;
+}
+console.log(main88());
+//swrの構文は、次のようになります。
+//userSWR
+const main89 = () => {
+   const { data, error } = useSWR('/api/user', fetcher);
+
+   if (error) return <div>failed to load</div>;
+   if (!data) return <div>loading...</div>;
+   return <div>hello {data.name}!</div>;
+}
+console.log(main89());
+//userSWRの構文は、次のようになります。
+//reactQuery
+const main90 = () => {
+   
+      const { isLoading, error, data } = useQuery('repoData', () =>
+         fetch('https://api.github.com/repos/tannerlinsley/react-query').then(res =>
+            res.json()
+         )
+      );
+   
+      if (isLoading) return 'Loading...';
+   
+      if (error) return 'An error has occurred: ' + error.message;
+   
+      return (
+         <div>
+            <h1>{data.name}</h1>
+            <p>{data.description}</p>
+            <strong>👀 {data.subscribers_count}</strong>{' '}
+            <strong>✨ {data.stargazers_count}</strong>{' '}
+            <strong>🍴 {data.forks_count}</strong>
+         </div>
+      );
+}
+   
+console.log(main90());
+//reactQueryの構文は、次のようになります。
+//useQuery
+const main91 = () => {
+   const { isLoading, error, data } = useQuery('repoData', () =>
+      fetch('https://api.github.com/repos/tannerlinsley/react-query').then(res =>
+         res.json()
+      )
+   );
+
+   if (isLoading) return 'Loading...';
+
+   if (error) return 'An error has occurred: ' + error.message;
+
+   return (
+      <div>
+         <h1>{data.name}</h1>
+         <p>{data.description}</p>
+         <strong>👀 {data.subscribers_count}</strong>{' '}
+         <strong>✨ {data.stargazers_count}</strong>{' '}
+         <strong>🍴 {data.forks_count}</strong>
+      </div>
+   );
+}
+console.log(main91());
+//useQueryの構文は、次のようになります。
+//useSWR
+const main92 = () => {
+   const { data, error } = useSWR('/api/user', fetcher);
+
+   if (error) return <div>failed to load</div>;
+   if (!data) return <div>loading...</div>;
+   return <div>hello {data.name}!</div>;
+}
+console.log(main92());
+//useSWRの構文は、次のようになります。
+//<BrowserRouter>
+const main93 = () => {
+   return (
+      <BrowserRouter>
+         <div>
+            <ul>
+               <li>
+                  <Link to="/">Home</Link>
+               </li>
+               <li>
+                  <Link to="/about">About</Link>
+               </li>
+               <li>
+                  <Link to="/users">Users</Link>
+               </li>
+            </ul>
+            <hr />
+            <Switch>
+               <Route exact path="/">
+                  <Home />
+               </Route>
+               <Route path="/about">
+                  <About />
+               </Route>
+               <Route path="/users">
+                  <Users />
+               </Route>
+            </Switch>
+         </div>
+      </BrowserRouter>
+   );
+}
+console.log(main93());
+//<BrowserRouter>の構文は、次のようになります。
+//<Head>
+const main94 = () => {
+   return (
+      <Head>
+         <title>My page title</title>
+         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+   );
+}
+console.log(main94());
+//getServerSideProps
+export async function getServerSideProps(context) {
+   return {
+      props: {
+         // props for your component
+      }
+   }
+}
+//getServerSidePropsの構文は、次のようになります。
+//getStaticPaths
+export async function getStaticPaths() {
+   return {
+      paths: [
+         { params: { id: '1' } },
+         { params: { id: '2' } }
+      ],
+      fallback: false
+   };
+}
+//getStaticPathsの構文は、次のようになります。
+//reduxとは、次のようになります。
+<Link href="/about">
+   <a>About Page</a>
+</Link>
+//素数判定
+const main95 = () => {
+   const isPrime = (num) => {
+      for (let i = 2; i < num; i++) {
+         if (num % i === 0) {
+            return false;
+         }
+      }
+      return num > 1;
+   }
+   console.log(isPrime(7));
+}
+console.log(main95());
+
+//素数判定の構文は、次のようになります。
+//nPmの基本公式
+const main96 = () => {
+   const nPm = (n, p, m) => {
+      return (n ** p) % m;
+   }
+   console.log(nPm(2, 3, 5));
+}
+//nPmの基本公式の構文は、次のようになります。
+//配列から選ぶ組み合わせ
+const main97 = () => {
+   const combination = (arr, num) => {
+      const result = [];
+      if (num === 1) return arr.map((v) => [v]);
+      arr.forEach((v, idx, arr) => {
+         const fixed = v;
+         const restArr = arr.slice(idx + 1);
+         const combinationArr = combination(restArr, num - 1);
+         const combineFix = combinationArr.map((v) => [fixed, ...v]);
+         result.push(...combineFix);
+      });
+      return result;
+   }
+   console.log(combination([1, 2, 3, 4, 5], 3));
+}
+console.log(main97());
+//配列から選ぶ組み合わせの構文は、次のようになります。
+//配列から選んで並び変えた中身
+const main98 = () => {
+   const permutation = (arr, selectNum) => {
+      const result = [];
+      if (selectNum === 1) return arr.map((v) => [v]);
+      arr.forEach((v, idx, arr) => {
+         const fixed = v;
+         const restArr = arr.filter((_, index) => index !== idx);
+         const permutationArr = permutation(restArr, selectNum - 1);
+         const combineFix = permutationArr.map((v) => [fixed, ...v]);
+         result.push(...combineFix);
+      });
+      return result;
+   }
+   console.log(permutation([1, 2, 3, 4, 5], 3));
+}
+console.log(main98());
+//配列から選んで並び変えた中身の構文は、次のようになります。
+//配列から同じ数値を２つ選ぶ場合の数
+const main99 = () => {
+   const combination = (arr, num) => {
+      const result = [];
+      if (num === 1) return arr.map((v) => [v]);
+      arr.forEach((v, idx, arr) => {
+         const fixed = v;
+         const restArr = arr.slice(idx);
+         const combinationArr = combination(restArr, num - 1);
+         const combineFix = combinationArr.map((v) => [fixed, ...v]);
+         result.push(...combineFix);
+      });
+      return result;
+   }
+   console.log(combination([1, 2, 3, 4, 5], 2));
+}
+console.log(main99());
+//配列から同じ数値を２つ選ぶ場合の数の構文は、次のようになります。
+//サイコロの出目の総和
+const main100 = () => {
+   const dice = (n) => {
+      const result = [];
+      for (let i = 1; i <= n; i++) {
+         for (let j = 1; j <= n; j++) {
+            result.push(i + j);
+         }
+      }
+      return result;
+   }
+   console.log(dice(6));
+}
+console.log(main100());
+//サイコロの出目の総和の構文は、次のようになります。
+//recoil,selectorとは
+const main101 = () => {
+   const selector = selector({
+      key: 'todoListStatsState',
+      get: ({ get }) => {
+         const todoList = get(todoListState);
+         const totalNum = todoList.length;
+         const totalCompletedNum = todoList.filter((item) => item.isComplete).length;
+         const totalUncompletedNum = totalNum - totalCompletedNum;
+         const percentCompleted = totalNum === 0 ? 0 : totalCompletedNum / totalNum;
+         return {
+            totalNum,
+            totalCompletedNum,
+            totalUncompletedNum,
+            percentCompleted,
+         };
+      },
+   });
+}
+//recoil,selectorの構文は、次のようになります。
+//recoil,atomとは
+const main102 = () => {
+   const todoListState = atom({
+      key: 'todoListState',
+      default: [],
+   });
+}
+//recoil,atomの構文は、次のようになります。
+//recoil,useRecoilStateとは
+const main103 = () => {
+   const [todoList, setTodoList] = useRecoilState(todoListState);
+}
+//recoil,useRecoilStateの構文は、次のようになります。
 

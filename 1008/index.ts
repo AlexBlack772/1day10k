@@ -295,4 +295,110 @@ let promise: Promise<string> = new Promise((resolve) => {
    resolve("Taro");
 })
 //型の互換性
-   
+//型の互換性は型を指定する
+let obj11: {
+   name: string;
+   age: number;
+} = {
+   name: "Taro",
+   age: 20
+}
+//Partial型
+//Partial型はオブジェクトのキーを指定する
+type Partial1<T> = {
+   [P in keyof T]?: T[P];
+}
+//Required型
+//Required型はオブジェクトのキーを指定する
+type Required1<T> = {
+   [P in keyof T]-?: T[P];
+}
+//Readonly型
+//Readonly型はオブジェクトのキーを指定する
+type Readonly1<T> = {
+   readonly [P in keyof T]: T[P];
+}
+//Pick型
+//Pick型はオブジェクトのキーを指定する
+type Pick1<T, K extends keyof T> = {
+
+   [P in K]: T[P];
+}
+//Record型
+//Record型はオブジェクトのキーを指定する
+type Record1<K extends keyof any, T> = {
+   [P in K]: T;
+}
+//Exclude型
+//Exclude型は型を指定する
+type Exclude1<T, U> = T extends U ? never : T;
+//Extract型
+//Extract型は型を指定する
+type Extract1<T, U> = T extends U ? T : never;
+//NonNullable型
+//NonNullable型は型を指定する
+type NonNullable1<T> = T extends null | undefined ? never : T;
+//Parameters型
+//Parameters型は関数の引数を指定する
+type Parameters2<T extends (...args: any) => any> = T extends (
+   ...args: infer P
+) => any ? P : never;
+//ReturnType型
+//ReturnType型は関数の戻り値を指定する
+type ReturnType2<T extends (...args: any) => any> = T extends (
+   ...args: any
+) => infer R ? R : any;
+//InstanceType型
+//InstanceType型はクラスのインスタンスを指定する
+type InstanceType1<T extends new (...args: any) => any> = T extends new (
+   ...args: any
+) => infer R ? R : any;
+//ThisType型
+//ThisType型は型を指定する
+type ThisType1<T> = {
+   this: T;
+}
+//Omit型
+//Omit型はオブジェクトのキーを指定する
+type Omit1<T, K extends keyof any> = Pick1<T, Exclude1<keyof T, K>>;
+//Exclude型
+//Exclude型は型を指定する
+type Exclude2<T, U> = T extends U ? never : T;
+//Extract型
+//Extract型は型を指定する
+type Extract2<T, U> = T extends U ? T : never;
+//NonNullable型
+//NonNullable型は型を指定する
+type NonNullable2<T> = T extends null | undefined ? never : T;
+//Parameters型
+//Parameters型は関数の引数を指定する
+type Parameters3<T extends (...args: any) => any> = T extends (
+   ...args: infer P
+) => any ? P : never;
+//Extract型
+//Extract型は関数の戻り値を指定する
+type ReturnType3<T extends (...args: any) => any> = T extends (
+   ...args: any
+) => infer R ? R : any;
+//mixin型
+//mixin型は型を指定する
+type Mixin = {
+   name: string;
+   age: number;
+}
+//as const
+//as constは型を指定する
+let obj12 = {
+   name: "Taro",
+   age: 20
+} as const;
+//as const
+//型アサーション
+//型アサーションは型を指定する
+//型アサーション
+//index型
+//index型は型を指定する
+type Index = {
+   [key: string]: string;
+}
+

@@ -63,3 +63,55 @@ app.get('/api', (req, res) => {
 })
 //mount pathとは
 //mount pathは、ルーティングのパスです。
+
+//app.get()の定義
+app.get(path, [callback ...callback], callback)
+//app.get()の説明
+//app.get()は、GETリクエストを処理するための関数です。
+//pathとは
+//pathは、ルーティングのパスです。
+//callbackとは
+//callbackは、リクエストを処理するための関数です。
+app.get('/api', (req, res) => {
+   res.send('hello world');
+})
+//app.listen()の定義
+app.listen(port, [hostname], [backlog], [callback])
+//app.listen()の説明
+//app.listen()は、サーバーを開始するための関数です。
+//portとは
+//portは、サーバーのポート番号です。
+//hostnameとは
+//hostnameは、サーバーのホスト名です。
+hostname = 'localhost'
+//backlogとは
+//backlogは、接続待ちの最大数です。
+//json()とは
+//json()は、リクエストのbodyをJSONとしてパースするための関数です。
+//json()の定義
+json([options])
+//json()の説明
+//json()は、リクエストのbodyをJSONとしてパースするための関数です。
+//optionsとは
+//optionsは、オプションです。
+//options.reviverとは
+//options.reviverは、JSONをパースする際に使用する関数です。
+//options.strictとは
+//options.strictは、JSONをパースする際に使用する関数です。
+options.strict = true
+//set()とは
+//set()は、レスポンスのヘッダーを設定するための関数です。
+//set()の定義
+set(field, [value])
+//set()の説明
+//set()は、レスポンスのヘッダーを設定するための関数です。
+//fieldとは
+//fieldは、ヘッダーのフィールドです。
+//valueとは
+//valueは、ヘッダーの値です。
+//status()とは
+//status()は、レスポンスのステータスコードを設定するための関数です。
+//status()の定義
+status(code)
+//status()の説明
+//baseUrlとは
