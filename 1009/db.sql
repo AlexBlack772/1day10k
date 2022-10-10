@@ -516,3 +516,22 @@ rename database fruits to fruits2;
 -- 例えば、show databasesとすると、データベースの一覧を表示する
 show databases;
 --show tablesを使う
+--show tablesとは、テーブルの一覧を表示する
+-- 例えば、show tablesとすると、テーブルの一覧を表示する
+SELECT * 
+FROM fruits AS x 
+WHERE EXISTS ( 
+SELECT * 
+FROM color AS y 
+WHERE x.id = y.fruit_id 
+AND y.color = 'yellow' );
+
+SELECT * 
+FROM fruits 
+LIMIT 1,2;
+--
+-- 1行目から2行目までを取得する
+SELECT *
+FROM fruits
+LIMIT 1,2;
+-- 

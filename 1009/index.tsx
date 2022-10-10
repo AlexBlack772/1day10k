@@ -54,3 +54,11 @@ const App = (props: Props) => {
 }
 //画像を投稿する
 
+//ブロック スコープの変数 'App' を再宣言することはできません。
+//画像を投稿する
+
+//画像を投稿する
+//import React, { useState, useEffect } from "react";
+//Dynamic Importとは、コードを実行する前に、必要なコードをダウンロードすることです。
+//withRouterを使う
+//withRouter

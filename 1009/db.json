@@ -42,3 +42,87 @@
     "email": "",
    }
 }
+
+//prisma.user.updateとは、prisma.user.updateのことです。
+//prisma.user.updateの定義
+{
+  "where": {
+    "id": 1
+  },
+  "data": {
+    "name": "test2"
+  }
+}
+const result = await prisma.user.findUnique({
+        where: {
+                id: 1,
+  },
+})
+//prisma.user.findUniqueの定義
+{
+  "where": {
+    "id": 1
+  }
+}
+//prisma.user.findの定義
+{
+  "where": {
+    "id": 1
+  }
+}
+//prisma.user.findManyの定義
+{
+  "where": {
+    "id": 1
+  }
+}
+
+//prisma.user.updateの定義
+{
+  "where": {
+    "id": 1
+  },
+  "data": {
+    "name": "test2"
+  }
+}
+
+//prisma.user.findUniqueの定義
+{
+  "where": {
+    "id": 1
+  }
+}
+//prisma.user.findの定義
+{
+  "where": {
+    "id": 1
+  }
+}
+//prisma.user.findManyの定義
+{
+  "where": {
+    "id": 1
+  }
+}
+//prisma.user.updateの定義
+{
+  "where": {
+    "id": 1
+  },
+  "data": {
+    "name": "test2"
+  }
+}
+//prisma.user.findUniqueの定義
+{
+  "where": {
+    "id": 1
+  }
+}
+//prisma.user.findの定義
+{
+  "where": {
+    "id": 1
+  }
+}

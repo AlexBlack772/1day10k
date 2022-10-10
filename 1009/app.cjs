@@ -44,3 +44,47 @@ res.render('index', { title: 'Hey', message: 'Hello there!' })
 //resとは、レスポンスを表す変数です。
 //resの定義
 res.render('index', { title: 'Hey', message: 'Hello there!' })
+//freshとは、レスポンスが新鮮かどうかを判定するメソッドです。
+//freshの定義
+res.fresh
+//resとは、レスポンスを表す変数です。
+//app.hostnameとは、ホスト名を表すプロパティです。
+//originalUrlとは、リクエストの元のURLを表すプロパティです。
+//originalUrlの定義
+req.originalUrl('http://localhost:3000/api', express.json(), (req, res) => {
+   res.send('Hello World!')
+})
+//reqとは、リクエストを表す変数です。
+app.path
+// express protocolとは、プロトコルを表すプロパティです。
+// express protocolの定義
+app.protocol
+// express queryとは、クエリを表すプロパティです。
+// express queryの定義
+app.query
+//acceptsCharsetsとは、リクエストの文字セットを判定するメソッドです。
+//acceptsCharsetsの定義
+req.acceptsCharsets('utf-8')
+//acceptsEncodingsとは、リクエストのエンコーディングを判定するメソッドです。
+//acceptsEncodingsの定義
+req.acceptsEncodings('gzip')
+//acceptsLanguagesとは、リクエストの言語を判定するメソッドです。
+//acceptsLanguagesの定義
+req.acceptsLanguages('ja')
+//acceptsとは、リクエストのMIMEタイプを判定するメソッドです。
+//acceptsの定義
+req.accepts('html')
+//appとは、express()を実行した結果を格納する変数です。
+//sendFileとは、ファイルを送信するメソッドです。
+//sendFileの定義
+res.sendFile('/path/to/index.html')
+//sendStatusとは、ステータスコードを送信するメソッドです。
+//sendStatusの定義
+//sendStatus
+res.sendStatus(200)
+//sendとは、レスポンスを送信するメソッドです。
+//sendの定義
+res.send(Buffer.from('whoop'))
+//redirect
+res.redirect('/foo/bar')
+//redirectの定義

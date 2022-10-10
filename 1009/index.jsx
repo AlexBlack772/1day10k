@@ -181,3 +181,44 @@ talkRoom.map((talk, index) => {
       </div>
    );
 }
+//画像を投稿する
+const [image, setImage] = useState("");
+const [imageList, setImageList] = useState([]);
+const [imageCount, setImageCount] = useState(0);
+const [imageIineCount, setImageIineCount] = useState(0);
+const
+//1文字を繰り返して改行
+//snapshotとは、データベースの状態を取得する
+const todo= firebase.firestore().collection('todos').doc(todoのid).collection('comment').get().then((snapshot) => {
+      snapshot.forEach((doc) => {
+         this.comments.push(doc.data());
+      });
+   });
+
+
+//画像入力フォームを作成
+
+
+//FileReaderインスタンスを作成
+const reader = new FileReader();
+//　・readAsDataURL()で画像ファイルを base64 文字列に変換する
+//Firebase Storageに保存する処理をする
+/* 実装例 */
+//firebase.storage().ref().child('画像を保存するpathを指定').put()とは
+
+
+//. Firebase Storageから画像のURLを取得する処理を実装する
+/* 実装例 */
+//firebase.storage().ref().child('画像を保存したpathを指定').getDownloadURL()
+
+// DBにURLを保存する処理を実装する
+/* 実装例 */
+//firebase.firestore().collection('users').doc(id).set()
+//
+//collection()でコレクションを指定
+//doc()でドキュメントを指定
+//set()でデータを保存
+//.then()で成功時の処理を記述
+//
+//.catch()で失敗時の処理を記述
+//nextJsとprismaを使ってみる

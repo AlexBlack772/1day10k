@@ -1571,3 +1571,73 @@ const array78 = array77.map((item) => {
 }
 );
 
+//ステータスでスタイルを変更する三項演算子
+const array79 = [
+      { id: 1, name: '佐藤', created: '2020-01-01' },
+      { id: 2, name: '鈴木', created: '2020-01-02' },
+      { id: 3, name: '高橋', created: '2020-01-03' },
+      { id: 4, name: '田中', created: '2020-01-04' },
+      { id: 5, name: '伊藤', created: '2020-01-05' },
+];
+const array80 = array79.map((item) => {
+            
+                  const created = new Date(item.created);
+                  const today = new Date();
+                  const diff = Math.floor((today.getTime() - created.getTime()) / (1000 * 60 * 60 * 24));
+                  return {
+                        ...item,
+                        diff,
+                        expired: diff > 3,
+                  };
+}
+)
+//ステータスでスタイルを変更する三項演算子
+const array81 = [
+      { id: 1, name: '佐藤', created: '2020-01-01' },
+      { id: 2, name: '鈴木', created: '2020-01-02' },
+      { id: 3, name: '高橋', created: '2020-01-03' },
+      { id: 4, name: '田中', created: '2020-01-04' },
+      { id: 5, name: '伊藤', created: '2020-01-05' },
+];
+const array82 = array81.map((item) => {
+
+      const created = new Date(item.created);
+      const today = new Date();
+      const diff = Math.floor((today.getTime() - created.getTime()) / (1000 * 60 * 60 * 24));
+      return {
+            ...item,
+            diff,
+            expired: diff > 3,
+      };
+}
+);
+
+//getServerSidePropsでデータを取得する
+export async function getServerSideProps() {
+      const res = await fetch('http://localhost:3000/api/users');
+      const users = await res.json();
+      return {
+            props: {
+                  users,
+            },
+      };
+}
+
+//next/amp
+import Image from 'next/image';
+//数値列挙 1~100
+const array83 = [...Array(100).keys()].map((item) => item + 1);
+//firebase.auth().currentUser.sendEmailVerification()
+firebase.auth().currentUser.updateProfile({displayName: '佐藤'})
+//ssrとは、サーバーサイドレンダリングのことで、サーバー側でhtmlを生成して、クライアントに返すことを指す。
+//クライアントサイドレンダリングとは、htmlを生成してから、データを取得することを指す。
+//クライアントサイドレンダリングの場合、htmlを生成してから、データを取得するため、htmlが表示されてから、データが表示されるまでの間に、画面が空白になってしまう。
+//chmod
+//chmod 777とは、ファイルのパーミッションを777にすることを指す。
+//フィルパーミッション777とは、
+//chmod 755
+//chmod 644
+//chmod 600
+//chmod 400
+//chmod 000
+

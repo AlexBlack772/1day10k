@@ -170,4 +170,5 @@ type keyofs2 = keyof { a: string; b: number; } | 'c';
 type mappeds2 = { [K in keyof { a: string; b: number; } | 'c']: boolean; };
 //ジェネリクスで型変数を絞る
 //ジェネリクスで型変数を絞るとは、型変数に制約をつけること
-
+//
+//ジェネリクスで型変数を絞る
