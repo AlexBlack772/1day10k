@@ -1,24 +1,33 @@
 #docker-compose書き方
 #mysql
 mysql:
+  #imageとは、docker hubから取得するイメージの名前
   image: mysql:5.7
+  #portsとは、コンテナのポートとホストのポートを紐付ける
   ports:
     - "3306:3306"
+  #environmentとは、コンテナの環境変数を設定する
   environment:
     MYSQL_ROOT_PASSWORD: root
     MYSQL_DATABASE: test
     MYSQL_USER: test
     MYSQL_PASSWORD: test
+  #volumesとは、コンテナのボリュームとホストのディレクトリを紐付ける
   volumes:
-    - ./mysql:/var/lib/mysql
+    - ./mysql:/var/lib/mysql  
+  #restartとは、コンテナの再起動ポリシーを設定するd
   restart: always
   #nodejs
 nodejs:
+  #buildとは、Dockerfileを指定する
   build: ./nodejs
+  #portsとは、コンテナのポートとホストのポートを紐付ける
   ports:
     - "3000:3000"
+  #volumesとは、コンテナのボリュームとホストのディレクトリを紐付ける
   volumes:
     - ./nodejs:/usr/src/app
+  #linksとは、コンテナ間の依存関係を設定する
   links:
     - mysql
   restart: always
