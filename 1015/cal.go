@@ -283,6 +283,7 @@ func alertTest(x string) {
 }
 //配列の中に要素があるかどうかを判定する関数
 func containsArrayString(x []string, y string) bool {
+	//_,とは、インデックスを返すが、インデックスは使わないという意味
 	 for _, v := range x {
 		  if v == y {
 				return true
