@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "jest": "^29.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bundleDependencies": [
+    "jest"
+  ]
+}
