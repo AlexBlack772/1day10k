@@ -257,3 +257,12 @@ testcases.loadTests()
 testcases.randomBytes()
 //testcases.randomAddress()とは、ランダムなアドレスを取得するメソッドです。
 testcases.randomAddress()
+//testcases.randomNumber()とは、最大値を指定してランダムな数値を取得するメソッドです。
+testcases.randomNumber()
+//testcases.randomHexString()とは、バイト数を指定してランダムな16進数文字列を取得するメソッドです。
+testcases.randomHexString()
+//testcases.randomString()とは、バイト数を指定してランダムな文字列を取得するメソッドです。
+testcases.randomString()
+//testcases.randomBoolean()とは、ランダムな真偽値を取得するメソッドです。
+testcases.randomBoolean()
+//testcases.randomUnit256()とは、ランダムなuint256を取得するメソッドです。
