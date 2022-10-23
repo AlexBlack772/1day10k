@@ -1,0 +1,8 @@
+"filename", "language", "JavaScript", "Solidity", "comment", "blank", "total"
+"/Users/user/init/10k1day/202210/1021-1031/1023/chai.js", "JavaScript", 0, 0, 1, 0, 1
+"/Users/user/init/10k1day/202210/1021-1031/1023/cypress.js", "JavaScript", 0, 0, 0, 1, 1
+"/Users/user/init/10k1day/202210/1021-1031/1023/ethers.js", "JavaScript", 90, 0, 78, 1, 169
+"/Users/user/init/10k1day/202210/1021-1031/1023/open.sol", "Solidity", 0, 1, 2, 0, 3
+"/Users/user/init/10k1day/202210/1021-1031/1023/sol.sol", "Solidity", 0, 1, 1, 1, 3
+"/Users/user/init/10k1day/202210/1021-1031/1023/web3.js", "JavaScript", 14, 0, 18, 1, 33
+"Total", "-", 104, 2, 100, 4, 210
