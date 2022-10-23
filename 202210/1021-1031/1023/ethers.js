@@ -135,3 +135,34 @@ console.log(ethers.utils.FormatTypes.full);
 //ethers.utils.FormatTypes.shortとは、指定したアドレスのコントラクトのフォーマットタイプを取得する関数です。
 console.log(ethers.utils.FormatTypes.short);
 //ethers.utils.FormatTypes.jsonとは、指定したアドレスのコントラクトのフォーマットタイプを取得する関数です。
+console.log(ethers.utils.FormatTypes.json);
+//ethers.utils.FormatTypes.sighashとは、指定したアドレスのコントラクトのフォーマットタイプを取得する関数です。
+console.log(ethers.utils.FormatTypes.sighash);
+//ethers.utils.FormatTypes.minimalとは、指定したアドレスのコントラクトのフォーマットタイプを取得する関数です。
+console.log(ethers.utils.FormatTypes.minimal);
+//ethers.utils.FormatTypes.nameとは、指定したアドレスのコントラクトのフォーマットタイプを取得する関数です。
+console.log(ethers.utils.FormatTypes.name);
+//fragment.nameとは、指定したアドレスのコントラクトのフラグメント名を取得する関数です。
+console.log(fragment.name);
+//fragment.typeとは、指定したアドレスのコントラクトのフラグメントタイプを取得する関数です。
+console.log(fragment.type);
+//fragment.format(format)とは、指定したアドレスのコントラクトのフォーマットを実行する関数です。
+fragment.format(format)
+//fragment.format(format, options)とは、指定したアドレスのコントラクトのフォーマットを実行する関数です。
+fragment.format(format, options)
+//fragment.gasLimitとは、指定したアドレスのコントラクトのガスリミットを取得する関数です。
+console.log(fragment.gasLimit);
+//fragment.inputsとは、指定したアドレスのコントラクトのインプットを取得する関数です。
+console.log(fragment.inputs);
+//fragment.payableとは、指定したアドレスのコントラクトのペイ可能を取得する関数です。
+console.log(fragment.payable);
+//fragment.stateMutabilityとは、指定したアドレスのコントラクトのステートマルチャビリティを取得する関数です。
+console.log(fragment.stateMutability);
+//ethers.utils.ConstructorFragment.from()とは、指定したアドレスのコントラクトのコンストラクタフラグメントを取得する関数です。
+ethers.utils.ConstructorFragment.from()
+//ethers.utils.EventFragment.from()とは、指定したアドレスのコントラクトのイベントフラグメントを取得する関数です。
+ethers.utils.EventFragment.from()
+//ethers.utils.FunctionFragment.from()とは、指定したアドレスのコントラクトのファンクションフラグメントを取得する関数です。
+ethers.utils.FunctionFragment.from()
+//ethers.utils.ParamType.from()とは、指定したアドレスのコントラクトのパラメータタイプを取得する関数です。
+ethers.utils.ParamType.from()
