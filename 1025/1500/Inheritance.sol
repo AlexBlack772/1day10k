@@ -32,13 +32,16 @@ contract C is A {
    }
 }
 
-contract D is B, C {
+contract D is B,C {
    function foo() public override(B, C) {
       emit Log("D.foo");
    }
 
-   function bar() public override(B, C) {
-      emit Log("D.bar");
-   }
 }
 
+contract E is C,B {
+   function foo() public override(C, B) {
+      emit Log("E.foo");
+   }
+
+}

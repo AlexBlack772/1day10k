@@ -1,0 +1,60 @@
+Date : 2022-10-25 14:44:22
+Directory : /Users/user/init/10k1day/1025
+Total : 29 files,  1249 codes, 9 comments, 336 blanks, all 1594 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Solidity |         28 |      1,233 |          9 |        335 |      1,577 |
+| Markdown |          1 |         16 |          0 |          1 |         17 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                     | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                        |         29 |      1,249 |          9 |        336 |      1,594 |
+| 1000                                                     |          2 |         54 |          8 |         14 |         76 |
+| 1100                                                     |          5 |        232 |          0 |         60 |        292 |
+| 1200                                                     |          7 |        246 |          0 |         66 |        312 |
+| 1300                                                     |          7 |        357 |          0 |         91 |        448 |
+| 1400                                                     |          4 |        200 |          0 |         62 |        262 |
+| 900                                                      |          3 |        144 |          1 |         42 |        187 |
++----------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                 | language | code       | comment    | blank      | total      |
++----------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/user/init/10k1day/1025/1000/StableSwap.sol        | Solidity |         40 |          1 |         10 |         51 |
+| /Users/user/init/10k1day/1025/1000/swap.sol              | Solidity |         14 |          7 |          4 |         25 |
+| /Users/user/init/10k1day/1025/1100/Chainlink.sol         | Solidity |         43 |          0 |         11 |         54 |
+| /Users/user/init/10k1day/1025/1100/CrowdFound.sol        | Solidity |         92 |          0 |         23 |        115 |
+| /Users/user/init/10k1day/1025/1100/DutchAuction.sol      | Solidity |         46 |          0 |          9 |         55 |
+| /Users/user/init/10k1day/1025/1100/EnglishAuction.sol    | Solidity |         15 |          0 |          6 |         21 |
+| /Users/user/init/10k1day/1025/1100/Proxy.sol             | Solidity |         36 |          0 |         11 |         47 |
+| /Users/user/init/10k1day/1025/1200/Bitwise.sol           | Solidity |         27 |          0 |         11 |         38 |
+| /Users/user/init/10k1day/1025/1200/CSAMM.sol             | Solidity |         68 |          0 |         10 |         78 |
+| /Users/user/init/10k1day/1025/1200/ContractSize.sol      | Solidity |         31 |          0 |          7 |         38 |
+| /Users/user/init/10k1day/1025/1200/ExternalContract.sol  | Solidity |         20 |          0 |          8 |         28 |
+| /Users/user/init/10k1day/1025/1200/HoneyPot.sol          | Solidity |         46 |          0 |         14 |         60 |
+| /Users/user/init/10k1day/1025/1200/Overflow.sol          | Solidity |         30 |          0 |         10 |         40 |
+| /Users/user/init/10k1day/1025/1200/Randomness.sol        | Solidity |         24 |          0 |          6 |         30 |
+| /Users/user/init/10k1day/1025/1300/DataLocations.sol     | Solidity |         31 |          0 |          6 |         37 |
+| /Users/user/init/10k1day/1025/1300/FunctionModifier.sol  | Solidity |         35 |          0 |         10 |         45 |
+| /Users/user/init/10k1day/1025/1300/Library.sol           | Solidity |         36 |          0 |         14 |         50 |
+| /Users/user/init/10k1day/1025/1300/MerkleTree.sol        | Solidity |         47 |          0 |          9 |         56 |
+| /Users/user/init/10k1day/1025/1300/MultiDelegatecall.sol | Solidity |         64 |          0 |         17 |         81 |
+| /Users/user/init/10k1day/1025/1300/MultiSigWallet.sol    | Solidity |        113 |          0 |         27 |        140 |
+| /Users/user/init/10k1day/1025/1300/Vault.sol             | Solidity |         31 |          0 |          8 |         39 |
+| /Users/user/init/10k1day/1025/1400/Create2.sol           | Solidity |          6 |          0 |          2 |          8 |
+| /Users/user/init/10k1day/1025/1400/SendingEther.sol      | Solidity |         19 |          0 |          5 |         24 |
+| /Users/user/init/10k1day/1025/1400/Super.sol             | Solidity |         34 |          0 |         11 |         45 |
+| /Users/user/init/10k1day/1025/1400/UpgradeableProxy.sol  | Solidity |        141 |          0 |         44 |        185 |
+| /Users/user/init/10k1day/1025/900/erc20.sol              | Solidity |         39 |          0 |          8 |         47 |
+| /Users/user/init/10k1day/1025/900/erc721.sol             | Solidity |         11 |          0 |          5 |         16 |
+| /Users/user/init/10k1day/1025/900/stakingRewards.sol     | Solidity |         94 |          1 |         29 |        124 |
+| /Users/user/init/10k1day/1025/行数.md                      | Markdown |         16 |          0 |          1 |         17 |
+| Total                                                    |          |      1,249 |          9 |        336 |      1,594 |
++----------------------------------------------------------+----------+------------+------------+------------+------------+
