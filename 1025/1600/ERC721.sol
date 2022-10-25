@@ -88,6 +88,51 @@ contract ERC721 is IERC721 {
       uint id
    ) external override {
       safeTransferFrom(from, to, id, "");
+
+      require(
+         to.code.length == 0,
+         "ERC721: transfer to non ERC721Receiver implementer"
+      );
+
+      
+   }
+
+   function safeTransferFrom(
+      address from,
+      address to,
+      uint id,
+      bytes calldata data
+   ) public override {
+      transferFrom(from, to, id);
+      require(
+         checkAndCallSafeTransfer(from, to, id, data),
+         "ERC721: transfer to non ERC721Receiver implementer"
+      );
+   }
+
+   function _mint(address to, uint id) internal {
+      require(to != address(0), "ERC721: mint to the zero address");
+      require(_ownerOf[id] == address(0), "ERC721: token already minted");
+      _ownerOf[id] = to;
+      emit Transfer(address(0), to, id);
+   }
+
+   function _burn(uint id) internal {
+      address owner = _ownerOf[id];
+      require(owner != address(0), "ERC721: burn of token that does not exist");
+      _tokenApprovals[id] = address(0);
+      _ownerOf[id] = address(0);
+      emit Transfer(owner, address(0), id);
+   }
+}
+
+contract MyNFT is ERC721 {
+   function mint(address to, uint id) external {
+      _mint(to, id);
+   }
+
+   function burn(uint id) external {
+      _burn(id);
    }
 }
 
