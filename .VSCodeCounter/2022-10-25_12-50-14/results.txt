@@ -1,0 +1,45 @@
+Date : 2022-10-25 12:50:14
+Directory : /Users/user/init/10k1day/1025
+Total : 17 files,  661 codes, 9 comments, 177 blanks, all 847 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Solidity |         17 |        661 |          9 |        177 |        847 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                       |         17 |        661 |          9 |        177 |        847 |
+| 1000                                                    |          2 |         54 |          8 |         14 |         76 |
+| 1100                                                    |          5 |        232 |          0 |         60 |        292 |
+| 1200                                                    |          7 |        231 |          0 |         61 |        292 |
+| 900                                                     |          3 |        144 |          1 |         42 |        187 |
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                | language | code       | comment    | blank      | total      |
++---------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/user/init/10k1day/1025/1000/StableSwap.sol       | Solidity |         40 |          1 |         10 |         51 |
+| /Users/user/init/10k1day/1025/1000/swap.sol             | Solidity |         14 |          7 |          4 |         25 |
+| /Users/user/init/10k1day/1025/1100/Chainlink.sol        | Solidity |         43 |          0 |         11 |         54 |
+| /Users/user/init/10k1day/1025/1100/CrowdFound.sol       | Solidity |         92 |          0 |         23 |        115 |
+| /Users/user/init/10k1day/1025/1100/DutchAuction.sol     | Solidity |         46 |          0 |          9 |         55 |
+| /Users/user/init/10k1day/1025/1100/EnglishAuction.sol   | Solidity |         15 |          0 |          6 |         21 |
+| /Users/user/init/10k1day/1025/1100/Proxy.sol            | Solidity |         36 |          0 |         11 |         47 |
+| /Users/user/init/10k1day/1025/1200/Bitwise.sol          | Solidity |         12 |          0 |          6 |         18 |
+| /Users/user/init/10k1day/1025/1200/CSAMM.sol            | Solidity |         68 |          0 |         10 |         78 |
+| /Users/user/init/10k1day/1025/1200/ContractSize.sol     | Solidity |         31 |          0 |          7 |         38 |
+| /Users/user/init/10k1day/1025/1200/ExternalContract.sol | Solidity |         20 |          0 |          8 |         28 |
+| /Users/user/init/10k1day/1025/1200/HoneyPot.sol         | Solidity |         46 |          0 |         14 |         60 |
+| /Users/user/init/10k1day/1025/1200/Overflow.sol         | Solidity |         30 |          0 |         10 |         40 |
+| /Users/user/init/10k1day/1025/1200/Randomness.sol       | Solidity |         24 |          0 |          6 |         30 |
+| /Users/user/init/10k1day/1025/900/erc20.sol             | Solidity |         39 |          0 |          8 |         47 |
+| /Users/user/init/10k1day/1025/900/erc721.sol            | Solidity |         11 |          0 |          5 |         16 |
+| /Users/user/init/10k1day/1025/900/stakingRewards.sol    | Solidity |         94 |          1 |         29 |        124 |
+| Total                                                   |          |        661 |          9 |        177 |        847 |
++---------------------------------------------------------+----------+------------+------------+------------+------------+
