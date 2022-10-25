@@ -1,0 +1,16 @@
+"filename", "language", "Solidity", "JavaScript", "comment", "blank", "total"
+"/Users/user/init/10k1day/1025/1000/StableSwap.sol", "Solidity", 40, 0, 1, 10, 51
+"/Users/user/init/10k1day/1025/1000/swap.sol", "Solidity", 14, 0, 7, 4, 25
+"/Users/user/init/10k1day/1025/1100/DutchAuction.sol", "Solidity", 0, 0, 0, 1, 1
+"/Users/user/init/10k1day/1025/1100/EnglishAuction.sol", "Solidity", 15, 0, 0, 6, 21
+"/Users/user/init/10k1day/1025/1100/Proxy.sol", "Solidity", 36, 0, 0, 11, 47
+"/Users/user/init/10k1day/1025/900/erc20.sol", "Solidity", 39, 0, 0, 8, 47
+"/Users/user/init/10k1day/1025/900/erc721.sol", "Solidity", 11, 0, 0, 5, 16
+"/Users/user/init/10k1day/1025/900/stakingRewards.sol", "Solidity", 94, 0, 1, 29, 124
+"/Users/user/init/10k1day/202210/1021-1031/1023/chai.js", "JavaScript", 0, 0, -1, 0, -1
+"/Users/user/init/10k1day/202210/1021-1031/1023/cypress.js", "JavaScript", 0, 0, 0, -1, -1
+"/Users/user/init/10k1day/202210/1021-1031/1023/ethers.js", "JavaScript", 0, -90, -78, -1, -169
+"/Users/user/init/10k1day/202210/1021-1031/1023/open.sol", "Solidity", -1, 0, -2, 0, -3
+"/Users/user/init/10k1day/202210/1021-1031/1023/sol.sol", "Solidity", -1, 0, -1, -1, -3
+"/Users/user/init/10k1day/202210/1021-1031/1023/web3.js", "JavaScript", 0, -14, -18, -1, -33
+"Total", "-", 247, -104, -91, 70, 122

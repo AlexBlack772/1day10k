@@ -1,0 +1,10 @@
+"filename", "language", "Solidity", "comment", "blank", "total"
+"/Users/user/init/10k1day/1025/1000/StableSwap.sol", "Solidity", 40, 1, 10, 51
+"/Users/user/init/10k1day/1025/1000/swap.sol", "Solidity", 14, 7, 4, 25
+"/Users/user/init/10k1day/1025/1100/DutchAuction.sol", "Solidity", 0, 0, 1, 1
+"/Users/user/init/10k1day/1025/1100/EnglishAuction.sol", "Solidity", 15, 0, 6, 21
+"/Users/user/init/10k1day/1025/1100/Proxy.sol", "Solidity", 36, 0, 11, 47
+"/Users/user/init/10k1day/1025/900/erc20.sol", "Solidity", 39, 0, 8, 47
+"/Users/user/init/10k1day/1025/900/erc721.sol", "Solidity", 11, 0, 5, 16
+"/Users/user/init/10k1day/1025/900/stakingRewards.sol", "Solidity", 94, 1, 29, 124
+"Total", "-", 249, 9, 74, 332
