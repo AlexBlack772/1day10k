@@ -30,9 +30,23 @@ interface IUniswapV2Pair {
       //getReservesとは、リザーブを取得する関数
       function getReserves() external view returns (uint112 reserve0, uint112 reserve1, uint32 blockTimestampLast);
       //price0CumulativeLastとは、最後の価格0の累積
-      
+      function price0CumulativeLast() external view returns (uint);
+      //price1CumulativeLastとは、最後の価格1の累積
+      function price1CumulativeLast() external view returns (uint);
+      //kLastとは、最後のkの値
+      function kLast() external view returns (uint);
+      //mintとは、ミントする関数
+      function mint(address to) external returns (uint liquidity);
+      //burnとは、バーンする関数
+      function burn(address to) external returns (uint amount0, uint amount1);
+      //swapとは、スワップする関数
+      function swap(uint amount0Out, uint amount1Out, address to, bytes calldata data) external;
+      //skimとは、スキムする関数
+      //スキムとは、スワップの一種で、スワップの一方のトークンを、スワップの相手方のトークンに変換すること
+      function skim(address to) external;
+      //syncとは、同期する関数
+      function sync() external;
 
-      
-      
+
 
 }
