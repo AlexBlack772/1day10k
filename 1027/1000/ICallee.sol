@@ -10,6 +10,7 @@ import { Account } from "./ISoloMargin.sol";
  *
  * Interface that Callees for Solo must implement in order to ingest data.
  */
+//dydxとは、データを取り込むために実装しなければならないCalleesのインターフェースです。
 contract ICallee {
 
     // ============ Public Functions ============
