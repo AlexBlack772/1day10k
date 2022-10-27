@@ -1,10 +1,10 @@
 # Details
 
-Date : 2022-10-27 17:50:40
+Date : 2022-10-27 20:35:04
 
 Directory /Users/user/init/10k1day/1027
 
-Total : 48 files,  1410 codes, 613 comments, 260 blanks, all 2283 lines
+Total : 59 files,  1883 codes, 722 comments, 358 blanks, all 2963 lines
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
@@ -46,14 +46,25 @@ Total : 48 files,  1410 codes, 613 comments, 260 blanks, all 2283 lines
 | [1027/1600/sol.sol](/1027/1600/sol.sol) | Solidity | 0 | 0 | 1 | 1 |
 | [1027/1700/AbiDecode.sol](/1027/1700/AbiDecode.sol) | Solidity | 15 | 10 | 4 | 29 |
 | [1027/1700/EnglishAuction.sol](/1027/1700/EnglishAuction.sol) | Solidity | 63 | 6 | 16 | 85 |
-| [1027/1700/Signareture.sol](/1027/1700/Signareture.sol) | Solidity | 0 | 0 | 1 | 1 |
 | [1027/1700/StakingRewards.sol](/1027/1700/StakingRewards.sol) | Solidity | 105 | 37 | 7 | 149 |
 | [1027/1700/UniDirectionalPaymentChannel.sol](/1027/1700/UniDirectionalPaymentChannel.sol) | Solidity | 44 | 10 | 14 | 68 |
 | [1027/1700/UpgradeableProxy.sol](/1027/1700/UpgradeableProxy.sol) | Solidity | 16 | 2 | 6 | 24 |
 | [1027/1700/sol.sol](/1027/1700/sol.sol) | Solidity | 0 | 0 | 1 | 1 |
+| [1027/1800/BiDirectionalPaymentChannel.sol](/1027/1800/BiDirectionalPaymentChannel.sol) | Solidity | 73 | 8 | 14 | 95 |
+| [1027/1800/HoneyPot.sol](/1027/1800/HoneyPot.sol) | Solidity | 6 | 4 | 1 | 11 |
+| [1027/1800/MultiSigWallet.sol](/1027/1800/MultiSigWallet.sol) | Solidity | 153 | 20 | 30 | 203 |
+| [1027/1800/Signature.sol](/1027/1800/Signature.sol) | Solidity | 39 | 14 | 8 | 61 |
 | [1027/1800/sol.sol](/1027/1800/sol.sol) | Solidity | 0 | 0 | 1 | 1 |
+| [1027/1900/IOneSplit.sol](/1027/1900/IOneSplit.sol) | Solidity | 58 | 5 | 3 | 66 |
+| [1027/1900/IUniswapV2FlashSwap.sol](/1027/1900/IUniswapV2FlashSwap.sol) | Solidity | 44 | 9 | 17 | 70 |
+| [1027/1900/Masset.sol](/1027/1900/Masset.sol) | Solidity | 10 | 9 | 2 | 21 |
+| [1027/1900/Optimal.sol](/1027/1900/Optimal.sol) | Solidity | 69 | 23 | 17 | 109 |
+| [1027/1900/StakingRewardsWithPlatformToken.sol](/1027/1900/StakingRewardsWithPlatformToken.sol) | Solidity | 12 | 10 | 2 | 24 |
 | [1027/1900/sol.sol](/1027/1900/sol.sol) | Solidity | 0 | 0 | 1 | 1 |
+| [1027/2000/ILendingPoolAddressesProvider.sol](/1027/2000/ILendingPoolAddressesProvider.sol) | Solidity | 9 | 7 | 3 | 19 |
+| [1027/2000/dss.sol](/1027/2000/dss.sol) | Solidity | 0 | 0 | 1 | 1 |
 | [1027/2000/sol.sol](/1027/2000/sol.sol) | Solidity | 0 | 0 | 1 | 1 |
+| [1027/2000/test.sol](/1027/2000/test.sol) | Solidity | 0 | 0 | 1 | 1 |
 | [1027/2100/sol.sol](/1027/2100/sol.sol) | Solidity | 0 | 0 | 1 | 1 |
 | [1027/2200/sol.sol](/1027/2200/sol.sol) | Solidity | 0 | 0 | 1 | 1 |
 | [1027/2300/sol.sol](/1027/2300/sol.sol) | Solidity | 0 | 0 | 1 | 1 |
