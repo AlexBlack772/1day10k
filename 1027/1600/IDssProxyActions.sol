@@ -171,7 +171,48 @@ contract DssProxyActionsCommon{
    ) internal {
       HopeAbstract(obj).nope(usr);
    }
+
+   //giveToProxyとは、プロキシに与える
+   function giveToProxy(
+      address proxyRegistry,
+      address dst,
+      address token
+   ) internal {
+      //giveとは、与える
+      ProxyRegistryAbstract(proxyRegistry).give(dst, token);
+   }
+
+   //cdpAllowとは、CDPを許可する
+   function cdpAllow(
+      address cdp,
+      address usr,
+      uint256 ok
+   ) internal {
+      //urnとは、ユーザー
+      address urn = ManagerAbstract(cdp).urns(ManagerAbstract(cdp).owns());
+      VatAbstract(ManagerAbstract(cdp).vat()).hope(usr);
+      if (ok > 0) {
+         VatAbstract(ManagerAbstract(cdp).vat()).hope(usr);
+      } else {
+         VatAbstract(ManagerAbstract(cdp).vat()).nope(usr);
+      }
+   }
+   //urnAllowとは、URNを許可する
+   function urnAllow(
+      address cdp,
+      address usr,
+      uint256 ok
+   ) internal {
+      //urnとは、ユーザー
+      address urn = ManagerAbstract(cdp).urns(ManagerAbstract(cdp).owns());
+      if (ok > 0) {
+         VatAbstract(ManagerAbstract(cdp).vat()).hope(usr);
+      } else {
+         VatAbstract(ManagerAbstract(cdp).vat()).nope(usr);
+      }
+   }
    //
+
    
 
 
