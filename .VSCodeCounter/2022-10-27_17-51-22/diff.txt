@@ -1,0 +1,134 @@
+Date : 2022-10-27 17:51:22
+Directory : /Users/user/init/10k1day/202210/1021-1031/1026
+Total : 78 files,  -769 codes, 47 comments, -205 blanks, all -927 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Markdown |          1 |         16 |          0 |          0 |         16 |
+| Solidity |         77 |       -785 |         47 |       -205 |       -943 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                     |         78 |       -769 |         47 |       -205 |       -927 |
+| ..                                                                                    |         43 |     -2,050 |        -43 |       -547 |     -2,640 |
+| ../1025                                                                               |         43 |     -2,050 |        -43 |       -547 |     -2,640 |
+| ../1025/1000                                                                          |          2 |        -54 |         -8 |        -14 |        -76 |
+| ../1025/1100                                                                          |          5 |       -232 |          0 |        -60 |       -292 |
+| ../1025/1200                                                                          |          7 |       -246 |          0 |        -66 |       -312 |
+| ../1025/1300                                                                          |          7 |       -357 |          0 |        -91 |       -448 |
+| ../1025/1400                                                                          |          4 |       -221 |          0 |        -67 |       -288 |
+| ../1025/1500                                                                          |          3 |       -131 |          0 |        -36 |       -167 |
+| ../1025/1600                                                                          |          2 |       -118 |          0 |        -41 |       -159 |
+| ../1025/1700                                                                          |          2 |       -161 |          0 |        -39 |       -200 |
+| ../1025/1800                                                                          |          3 |       -301 |         -8 |        -61 |       -370 |
+| ../1025/1900                                                                          |          1 |        -20 |          0 |        -10 |        -30 |
+| ../1025/2000                                                                          |          1 |        -38 |        -17 |        -12 |        -67 |
+| ../1025/2100                                                                          |          1 |        -12 |         -8 |         -6 |        -26 |
+| ../1025/2200                                                                          |          1 |        -15 |         -1 |         -1 |        -17 |
+| ../1025/2300                                                                          |          1 |          0 |          0 |         -1 |         -1 |
+| ../1025/900                                                                           |          3 |       -144 |         -1 |        -42 |       -187 |
+| 1000                                                                                  |          5 |        134 |          0 |         40 |        174 |
+| 1100                                                                                  |          2 |         49 |          0 |         17 |         66 |
+| 1200                                                                                  |          2 |         44 |          1 |         14 |         59 |
+| 1300                                                                                  |          2 |        129 |          0 |         36 |        165 |
+| 1400                                                                                  |          3 |         70 |          5 |         31 |        106 |
+| 1500                                                                                  |          5 |         94 |          0 |         18 |        112 |
+| 1600                                                                                  |          4 |        142 |         24 |         67 |        233 |
+| 1700                                                                                  |          2 |        238 |          1 |         21 |        260 |
+| 1800                                                                                  |          3 |         67 |          0 |         12 |         79 |
+| 1900                                                                                  |          1 |         82 |          0 |         13 |         95 |
+| 2000                                                                                  |          1 |        149 |         33 |         36 |        218 |
+| 2100                                                                                  |          2 |         40 |          2 |         26 |         68 |
+| 2200                                                                                  |          1 |          0 |          0 |          1 |          1 |
+| 900                                                                                   |          1 |         27 |         24 |         10 |         61 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                              | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/user/init/10k1day/202210/1021-1031/1025/1000/StableSwap.sol                    | Solidity |        -40 |         -1 |        -10 |        -51 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1000/swap.sol                          | Solidity |        -14 |         -7 |         -4 |        -25 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1100/Chainlink.sol                     | Solidity |        -43 |          0 |        -11 |        -54 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1100/CrowdFound.sol                    | Solidity |        -92 |          0 |        -23 |       -115 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1100/DutchAuction.sol                  | Solidity |        -46 |          0 |         -9 |        -55 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1100/EnglishAuction.sol                | Solidity |        -15 |          0 |         -6 |        -21 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1100/Proxy.sol                         | Solidity |        -36 |          0 |        -11 |        -47 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1200/Bitwise.sol                       | Solidity |        -27 |          0 |        -11 |        -38 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1200/CSAMM.sol                         | Solidity |        -68 |          0 |        -10 |        -78 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1200/ContractSize.sol                  | Solidity |        -31 |          0 |         -7 |        -38 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1200/ExternalContract.sol              | Solidity |        -20 |          0 |         -8 |        -28 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1200/HoneyPot.sol                      | Solidity |        -46 |          0 |        -14 |        -60 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1200/Overflow.sol                      | Solidity |        -30 |          0 |        -10 |        -40 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1200/Randomness.sol                    | Solidity |        -24 |          0 |         -6 |        -30 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1300/DataLocations.sol                 | Solidity |        -31 |          0 |         -6 |        -37 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1300/FunctionModifier.sol              | Solidity |        -35 |          0 |        -10 |        -45 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1300/Library.sol                       | Solidity |        -36 |          0 |        -14 |        -50 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1300/MerkleTree.sol                    | Solidity |        -47 |          0 |         -9 |        -56 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1300/MultiDelegatecall.sol             | Solidity |        -64 |          0 |        -17 |        -81 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1300/MultiSigWallet.sol                | Solidity |       -113 |          0 |        -27 |       -140 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1300/Vault.sol                         | Solidity |        -31 |          0 |         -8 |        -39 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1400/Create2.sol                       | Solidity |        -27 |          0 |         -7 |        -34 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1400/SendingEther.sol                  | Solidity |        -19 |          0 |         -5 |        -24 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1400/Super.sol                         | Solidity |        -34 |          0 |        -11 |        -45 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1400/UpgradeableProxy.sol              | Solidity |       -141 |          0 |        -44 |       -185 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1500/BiDirectionalPayment.sol          | Solidity |        -67 |          0 |        -16 |        -83 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1500/CallingContract.sol               | Solidity |        -28 |          0 |         -9 |        -37 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1500/Inheritance.sol                   | Solidity |        -36 |          0 |        -11 |        -47 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1600/BLockTimestamp.sol                | Solidity |        -14 |          0 |         -6 |        -20 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1600/ERC721.sol                        | Solidity |       -104 |          0 |        -35 |       -139 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1700/Optimal.sol                       | Solidity |        -61 |          0 |        -15 |        -76 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1700/UniswapV2SwapExamples.sol         | Solidity |       -100 |          0 |        -24 |       -124 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1800/IterableMapping.sol               | Solidity |        -84 |         -1 |        -22 |       -107 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1800/UniswapV3FlashSwap.sol            | Solidity |        -51 |         -7 |        -10 |        -68 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1800/UniswapV3Liquidity.sol            | Solidity |       -166 |          0 |        -29 |       -195 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/1900/TryCatch.sol                      | Solidity |        -20 |          0 |        -10 |        -30 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/2000/super.sol                         | Solidity |        -38 |        -17 |        -12 |        -67 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/2100/Shadow.sol                        | Solidity |        -12 |         -8 |         -6 |        -26 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/2200/Payable.sol                       | Solidity |        -15 |         -1 |         -1 |        -17 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/2300 /Vault.sol                        | Solidity |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/900/erc20.sol                          | Solidity |        -39 |          0 |         -8 |        -47 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/900/erc721.sol                         | Solidity |        -11 |          0 |         -5 |        -16 |
+| /Users/user/init/10k1day/202210/1021-1031/1025/900/stakingRewards.sol                 | Solidity |        -94 |         -1 |        -29 |       -124 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1000/DenialOfService.sol               | Solidity |         23 |          0 |          3 |         26 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1000/ForceEther.sol                    | Solidity |         32 |          0 |          9 |         41 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1000/MultiSigReplay.sol                | Solidity |         10 |          0 |          4 |         14 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1000/PreventFrontRunning.sol           | Solidity |         33 |          0 |         11 |         44 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1000/ReEntrancy.sol                    | Solidity |         36 |          0 |         13 |         49 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1100/MultiSigWallet.sol                | Solidity |         23 |          0 |          9 |         32 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1100/TxOrigin.sol                      | Solidity |         26 |          0 |          8 |         34 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1200/Keccak256.sol                     | Solidity |         26 |          0 |          7 |         33 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1200/slot.sol                          | Solidity |         18 |          1 |          7 |         26 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1300/MultiSigWallet.sol                | Solidity |         99 |          0 |         24 |        123 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1300/Struct.sol                        | Solidity |         30 |          0 |         12 |         42 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1400/Array.sol                         | Solidity |         35 |          5 |         17 |         57 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1400/Enum.sol                          | Solidity |         23 |          0 |          8 |         31 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1400/Err.sol                           | Solidity |         12 |          0 |          6 |         18 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1500/ICEther.sol                       | Solidity |         26 |          0 |         10 |         36 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1500/IComptroller.sol                  | Solidity |         11 |          0 |          1 |         12 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1500/ICurveFiCurve.sol                 | Solidity |         30 |          0 |          3 |         33 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1500/ICurveFiZap.sol                   | Solidity |          8 |          0 |          2 |         10 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1500/ILendingPoolAddressesProvider.sol | Solidity |         19 |          0 |          2 |         21 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1600/DSS.sol                           | Solidity |         62 |         21 |         18 |        101 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1600/IDepot.sol                        | Solidity |         16 |          0 |         14 |         30 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1600/IMedianizer.sol                   | Solidity |         13 |          3 |          2 |         18 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1600/ISynthetix.sol                    | Solidity |         51 |          0 |         33 |         84 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1700/DydxFlashloanBase.sol             | Solidity |        102 |          1 |         11 |        114 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1700/ISoloMargin.sol                   | Solidity |        136 |          0 |         10 |        146 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1800/BPool.sol                         | Solidity |         18 |          0 |          1 |         19 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1800/ExchangeProxy.sol                 | Solidity |         39 |          0 |          7 |         46 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1800/KyberNetworkProxy.sol             | Solidity |         10 |          0 |          4 |         14 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/1900/IUniswapV2Router.sol              | Solidity |         82 |          0 |         13 |         95 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/2000/dss.sol                           | Solidity |        149 |         33 |         36 |        218 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/2100/IUniswapV2Pair.sol                | Solidity |         21 |          0 |         20 |         41 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/2100/keyber.sol                        | Solidity |         19 |          2 |          6 |         27 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/2200/IUniswapFactory.sol               | Solidity |          0 |          0 |          1 |          1 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/900/Delegatecall.sol                   | Solidity |         27 |         24 |         10 |         61 |
+| /Users/user/init/10k1day/202210/1021-1031/1026/行数.md                                  | Markdown |         16 |          0 |          0 |         16 |
+| Total                                                                                 |          |       -769 |         47 |       -205 |       -927 |
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
