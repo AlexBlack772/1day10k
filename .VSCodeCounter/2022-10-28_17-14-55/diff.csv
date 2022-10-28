@@ -1,0 +1,9 @@
+"filename", "language", "Solidity", "comment", "blank", "total"
+"/Users/user/init/10k1day/1028/1600/StableSwap.sol", "Solidity", 177, 15, 15, 207
+"/Users/user/init/10k1day/1028/1600/TimeLock.sol", "Solidity", 51, 15, 9, 75
+"/Users/user/init/10k1day/1028/1600/UpgradeableProxy.sol", "Solidity", 147, 36, 25, 208
+"/Users/user/init/10k1day/1028/1600/Vault.sol", "Solidity", 33, 11, 11, 55
+"/Users/user/init/10k1day/1028/1700/Array.sol", "Solidity", 27, 8, 11, 46
+"/Users/user/init/10k1day/1028/1700/Enum.sol", "Solidity", 23, 5, 7, 35
+"/Users/user/init/10k1day/1028/1700/MultiSigWallet.sol", "Solidity", 146, 20, 17, 183
+"Total", "-", 604, 110, 95, 809
