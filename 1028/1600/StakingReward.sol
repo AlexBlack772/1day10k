@@ -69,5 +69,100 @@ contract StakingRewards {
              ((lastTimeRewardApplicable() - updatedAt) * rewardRate * 1e18) /
              totalSupply;
       }
-      
+      //stakeとは、トークンをステーキングする関数です。
+        function stake(uint amount) public updateReward(msg.sender) {
+             require(amount > 0, "Cannot stake 0");
+             totalSupply = totalSupply + amount;
+             balanceOf[msg.sender] = balanceOf[msg.sender] + amount;
+             stakingToken.transferFrom(msg.sender, address(this), amount);
+             emit Staked(msg.sender, amount);
+        }
+        //withdrawとは、トークンをステーキングから取り出す関数です。
+        function withdraw(uint amount) public updateReward(msg.sender) {
+             require(amount > 0, "Cannot withdraw 0");
+             totalSupply = totalSupply - amount;
+             balanceOf[msg.sender] = balanceOf[msg.sender] - amount;
+             stakingToken.transfer(msg.sender, amount);
+             emit Withdrawn(msg.sender, amount);
+        }
+        //earnedとは、報酬を取得する関数です。
+        function earned(address account) public view returns (uint) {
+             return
+                 (balanceOf[account] *
+                     (rewardPerToken() - userRewardPerTokenPaid[account])) /
+                 1e18 +
+                 rewards[account];
+        }
+        //getRewardとは、報酬を受け取る関数です。
+        function getReward() public updateReward(msg.sender) {
+             uint reward = earned(msg.sender);
+             if (reward > 0) {
+                 rewards[msg.sender] = 0;
+                 rewardsToken.transfer(msg.sender, reward);
+                 emit RewardPaid(msg.sender, reward);
+             }
+        }
+        //setRewardDurationとは、報酬を支払う期間を設定する関数です。
+        function setRewardDuration(uint _duration) public onlyOwner {
+             duration = _duration;
+             emit RewardDurationUpdated(duration);
+        }
+        //notifyRewardAmountとは、報酬を設定する関数です。
+        function notifyRewardAmount(uint reward)
+             public
+             onlyOwner
+             updateReward(address(0))
+        {
+             if (block.timestamp >= finishAt) {
+                 rewardRate = reward / duration;
+             } else {
+                 uint remaining = finishAt - block.timestamp;
+                 uint leftover = remaining * rewardRate;
+                 rewardRate = (reward + leftover) / duration;
+             }
+             updatedAt = block.timestamp;
+             finishAt = block.timestamp + duration;
+             emit RewardAdded(reward);
+        }
+        //_mintとは、トークンを発行する関数です。
+        function _mint(address account, uint amount) internal {
+             require(account != address(0), "ERC20: mint to the zero address");
+             totalSupply = totalSupply + amount;
+             balanceOf[account] = balanceOf[account] + amount;
+             emit Transfer(address(0), account, amount);
+        }
+        
+}
+
+//IERC20とは、ERC20トークンのインターフェースです。
+interface IERC20 {
+    //totalSupplyとは、トークンの総発行量を取得する関数です。
+    function totalSupply() external view returns (uint256);
+    //balanceOfとは、指定したアドレスの残高を取得する関数です。
+    function balanceOf(address account) external view returns (uint256);
+    //transferとは、指定したアドレスにトークンを送金する関数です。
+    function transfer(address recipient, uint256 amount)
+        external
+        returns (bool);
+    //allowanceとは、指定したアドレスが送金できる残高を取得する関数です。
+    function allowance(address owner, address spender)
+        external
+        view
+        returns (uint256);
+    //approveとは、指定したアドレスにトークンを送金できる残高を設定する関数です。
+    function approve(address spender, uint256 amount) external returns (bool);
+    //transferFromとは、指定したアドレスからトークンを送金する関数です。
+    function transferFrom(
+        address sender,
+        address recipient,
+        uint256 amount
+    ) external returns (bool);
+    //eventとは、イベントを発行する関数です。
+    event Transfer(address indexed from, address indexed to, uint256 value);
+    event Approval(
+        address indexed owner,
+        address indexed spender,
+        uint256 value
+    );
+    
 }
