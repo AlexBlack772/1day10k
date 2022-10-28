@@ -55,7 +55,24 @@ library TypedMemView {
       return _view._unsafe_length != 0;
    }
 
-   //isTypeとは、ビューのタイプが一致するかどうかを判定する関数です。
+   //assertValidとは、ビューが有効であることを確認する関数です。
+   function assertValid(TypedMemView.MemView memory _view) internal pure {
+      require(_view._unsafe_length != 0, "TypedMemView: invalid view");
+   }
+   //castToとは、ビューを別の型にキャストする関数です。
+
+   function castTo(TypedMemView.MemView memory _view, uint256 _type) internal pure returns (TypedMemView.MemView memory) {
+      return TypedMemView.MemView(_view._unsafe_memPtr, _type);
+   }
+   //buildとは、ビューを構築する関数です。
+   function build(TypedMemView.MemView memory _view, uint256 _type) internal pure returns (TypedMemView.MemView memory) {
+      return TypedMemView.MemView(_view._unsafe_memPtr, _type);
+   }
+   //refとは、ビューを参照する関数です。
+   function ref(TypedMemView.MemView memory _view, uint256 _offset) internal pure returns (TypedMemView.MemView memory) {
+      return TypedMemView.MemView(_view._unsafe_memPtr + _offset, _view._unsafe_length - _offset);
+   }
+   
    
 
 
