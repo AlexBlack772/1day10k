@@ -1,0 +1,17 @@
+"filename", "language", "Solidity", "comment", "blank", "total"
+"/Users/user/init/10k1day/1028/1700/Liquidity.sol", "Solidity", 31, 13, 9, 53
+"/Users/user/init/10k1day/1028/1700/Optimal.sol", "Solidity", 62, 14, 13, 89
+"/Users/user/init/10k1day/1028/1700/UniswapV2FlashSwap.sol", "Solidity", 58, 14, 23, 95
+"/Users/user/init/10k1day/1028/1800/Bits.sol", "Solidity", 121, 13, 5, 139
+"/Users/user/init/10k1day/1028/1800/BtcParser.sol", "Solidity", 3, 1, 2, 6
+"/Users/user/init/10k1day/1028/1800/UniswapV3Flash.sol", "Solidity", 85, 18, 21, 124
+"/Users/user/init/10k1day/1028/1800/UniswapV3Liquidity.sol", "Solidity", 110, 24, 24, 158
+"/Users/user/init/10k1day/1028/1900/Bytes.sol", "Solidity", 53, 7, 8, 68
+"/Users/user/init/10k1day/1028/1900/ExactMath.sol", "Solidity", 37, 5, 5, 47
+"/Users/user/init/10k1day/1028/1900/Memory.sol", "Solidity", 57, 9, 15, 81
+"/Users/user/init/10k1day/1028/1900/Strings.sol", "Solidity", 152, 11, 13, 176
+"/Users/user/init/10k1day/1028/1900/ViewSPV.sol", "Solidity", 60, 10, 9, 79
+"/Users/user/init/10k1day/1028/2000/BytesLib.sol", "Solidity", 53, 7, 9, 69
+"/Users/user/init/10k1day/1028/2000/ValidateSPV.sol", "Solidity", 40, 8, 5, 53
+"/Users/user/init/10k1day/1028/2000/ViewBTC.sol", "Solidity", 79, 12, 6, 97
+"Total", "-", 1001, 166, 167, 1334
