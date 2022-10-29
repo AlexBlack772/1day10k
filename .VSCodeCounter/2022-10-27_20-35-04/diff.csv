@@ -1,8 +1,0 @@
-"filename", "language", "Solidity", "comment", "blank", "total"
-"/Users/user/init/10k1day/1027/1900/IOneSplit.sol", "Solidity", 58, 5, 3, 66
-"/Users/user/init/10k1day/1027/1900/Masset.sol", "Solidity", 10, 9, 2, 21
-"/Users/user/init/10k1day/1027/1900/StakingRewardsWithPlatformToken.sol", "Solidity", 12, 10, 2, 24
-"/Users/user/init/10k1day/1027/2000/ILendingPoolAddressesProvider.sol", "Solidity", 9, 7, 3, 19
-"/Users/user/init/10k1day/1027/2000/dss.sol", "Solidity", 0, 0, 1, 1
-"/Users/user/init/10k1day/1027/2000/test.sol", "Solidity", 0, 0, 1, 1
-"Total", "-", 89, 31, 12, 132
