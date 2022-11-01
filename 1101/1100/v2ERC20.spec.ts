@@ -1,3 +1,4 @@
+//chaijsとは、JavaScriptのテストフレームワークである。Mochaと組み合わせて使用することが多い。
 import chai, { expect } from 'chai'
 //Contractとは、Ethereum上にデプロイされたスマートコントラクトのこと
 import { Contract } from 'ethers'
@@ -7,10 +8,11 @@ import { MaxUint256 } from 'ethers/constants'
 import { bigNumberify, hexlify, keccak256, defaultAbiCoder, toUtf8Bytes } from 'ethers/utils'
 //ethereum-waffleは、Ethereumのテストツール
 import { solidity, MockProvider, deployContract } from 'ethereum-waffle'
+//ethereumjs-utilとは、Ethereumのユーティリティ関数を提供する
 import { ecsign } from 'ethereumjs-util'
 
 import { expandTo18Decimals, getApprovalDigest } from './shared/utilities'
-
+//ERC20.jsonは、ERC20のABIを記述したファイル
 import ERC20 from '../build/ERC20.json'
 //chai.use(solidity)は、chaiにsolidityを追加する
 chai.use(solidity)
@@ -66,3 +68,85 @@ describe('UniswapV2ERC20', () => {
         )
       )
     )
+    expect(await token.PERMIT_TYPEHASH()).to.eq(
+      keccak256(toUtf8Bytes('Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)'))
+    )
+  })
+
+    it('approve', async () => {
+      //TEST_AMOUNTは、10の18乗
+      await expect(token.approve(other.address, TEST_AMOUNT))
+        //to.emitは、イベントが発火するかを確認する関数
+        .to.emit(token, 'Approval')
+        //withArgsは、イベントの引数を確認する関数
+        //other.addressは、otherのアドレス
+        .withArgs(wallet.address, other.address, TEST_AMOUNT)
+      expect(await token.allowance(wallet.address, other.address)).to.eq(TEST_AMOUNT)
+    })
+
+    it('transfer', async () => {
+      await expect(token.transfer(other.address, TEST_AMOUNT))
+        .to.emit(token, 'Transfer')
+        .withArgs(wallet.address, other.address, TEST_AMOUNT)
+      //subは、引数を引く関数
+      expect(await token.balanceOf(wallet.address)).to.eq(TOTAL_SUPPLY.sub(TEST_AMOUNT))
+      expect(await token.balanceOf(other.address)).to.eq(TEST_AMOUNT)
+    })
+
+    it('transfer:fail', async () => {
+      //revertedは、トランザクションが失敗するかを確認する関数
+      await expect(token.transfer(other.address, TOTAL_SUPPLY.add(1))).to.be.reverted // ds-math-sub-underflow
+      await expect(token.connect(other).transfer(wallet.address, 1)).to.be.reverted // ds-math-sub-underflow
+    })
+
+    it('transferFrom', async () => {
+      await token.approve(other.address, TEST_AMOUNT)
+      await expect(token.connect(other).transferFrom(wallet.address, other.address, TEST_AMOUNT))
+        .to.emit(token, 'Transfer')
+        .withArgs(wallet.address, other.address, TEST_AMOUNT)
+      expect(await token.allowance(wallet.address, other.address)).to.eq(0)
+      expect(await token.balanceOf(wallet.address)).to.eq(TOTAL_SUPPLY.sub(TEST_AMOUNT))
+      expect(await token.balanceOf(other.address)).to.eq(TEST_AMOUNT)
+    })
+
+    it('transferFrom:max', async () => {
+      //MAX_UINT256は、2の256乗-1
+      await token.approve(other.address, MaxUint256)
+      await expect(token.connect(other).transferFrom(wallet.address, other.address, TEST_AMOUNT))
+        .to.emit(token, 'Transfer')
+        //withArgsは、イベントの引数を確認する関数
+        .withArgs(wallet.address, other.address, TEST_AMOUNT)
+      expect(await token.allowance(wallet.address, other.address)).to.eq(MaxUint256)
+      expect(await token.balanceOf(wallet.address)).to.eq(TOTAL_SUPPLY.sub(TEST_AMOUNT))
+      expect(await token.balanceOf(other.address)).to.eq(TEST_AMOUNT)
+    })
+
+    it('permit', async () => {
+      const nonce = await token.nonces(wallet.address)
+      //MaxUint256は、2の256乗-1
+      const deadline = MaxUint256
+      //getApprovalDigestは、permitのハッシュ値を計算する関数
+      const digest = await getApprovalDigest(
+        token,
+        { owner: wallet.address, spender: other.address, value: TEST_AMOUNT },
+        nonce,
+        deadline
+      )
+
+      //Buffer.fromは、文字列をバイナリに変換する関数
+      //ecsignは、ECDSA署名を行う関数
+      //sliceは、配列の一部を取り出す関数
+      const { v, r, s } = ecsign(Buffer.from(digest.slice(2), 'hex'), Buffer.from(wallet.privateKey.slice(2), 'hex'))
+
+      //pemitは、permitを実行する関数
+      //hexlifyは、16進数に変換する関数
+      await expect(token.permit(wallet.address, other.address, TEST_AMOUNT, deadline, v, hexlify(r), hexlify(s)))
+        .to.emit(token, 'Approval')
+        .withArgs(wallet.address, other.address, TEST_AMOUNT)
+      expect(await token.allowance(wallet.address, other.address)).to.eq(TEST_AMOUNT)
+      //noncesは、permitの回数を確認する関数
+      //bigNumberifyは、16進数を10進数に変換する関数
+      expect(await token.nonces(wallet.address)).to.eq(bigNumberify(1))
+    })
+  })
+
