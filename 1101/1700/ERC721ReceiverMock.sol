@@ -2,6 +2,7 @@
 pragma solidity ^0.8.7;
 import { IERC721Receiver } from "../interfaces/IERC721Receiver.sol";
 
+//ERC721ReceiverMockとは、IERC721Receiverを継承したコントラクト
 contract ERC721ReceiverMock is IERC721Receiver {
     enum Error {
         None,
