@@ -181,6 +181,7 @@ describe('ERC20', () => {
             it('reverts ', async () => {
                const amount = approvalAmount.add(1);
 
+               //assertRevertとは、エラーを検知する関数
                await assertRevert(
                   ERC20.connect(user2).transferFrom(user1.address, user2.address, amount),
                   `InsufficientAllowance(${amount.toString()}, ${approvalAmount.toString()})`
