@@ -21,3 +21,14 @@ type Context struct {
 	eventManager  *EventManager
 	priority      int64 // The tx priority, only relevant in CheckTx
 }
+
+//cacheTxContextは、
+runMsgCtx, msCache := app.cacheTxContext(ctx, txBytes)
+result = app.runMsgs(runMsgCtx, msgs, mode)
+result.GasWanted = gasWanted
+if mode != runTxModeDeliver {
+  return result
+}
+if result.IsOK() {
+  msCache.Write()
+}
