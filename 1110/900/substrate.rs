@@ -91,4 +91,68 @@ use sc_network_sync
 use sc_state_db
 //sc_consensus_babeとは、Babeの合意を実装するためのパレットです。
 use sc_consensus_babe
-//
+//sp_keystoreとは、キーストアを実装するためのパレットです。
+use sp_keystore
+//sp_offchainとは、オフチェーンを実装するためのパレットです。
+use sp_offchain
+//sp_transaction_poolとは、トランザクションプールを実装するためのパレットです。
+use sp_transaction_pool
+//sp_consensus_babeとは、Babeの合意を実装するためのパレットです。
+use sp_consensus_babe
+//sp_panic_handlerとは、パニックハンドラーを実装するためのパレットです。
+use sp_panic_handler
+//パニックハンドラーとは、パニックを実装するためのパレットです。
+//sp_timestampとは、タイムスタンプを実装するためのパレットです。
+use sp_timestamp
+//sp_serializerとは、シリアライザーを実装するためのパレットです。
+use sp_serializer
+//sp_tracingとは、トレーシングを実装するためのパレットです。
+use sp_tracing
+//sp_inherentsとは、インヘリタンスを実装するためのパレットです。
+use sp_inherents
+//sp_consensusとは、合意を実装するためのパレットです。
+use sp_consensus
+//sp_consensus_auraとは、Auraの合意を実装するためのパレットです。
+use sp_consensus_aura
+//substrate_frame_cliとは、フレームのCLIを実装するためのパレットです。
+use substrate_frame_cli
+//sp_wasm_interfaceとは、Wasmのインターフェースを実装するためのパレットです。
+use sp_wasm_interface
+//sp_trieとは、トライを実装するためのパレットです。
+use sp_trie
+//sp_state_machineとは、ステートマシンを実装するためのパレットです。
+use sp_state_machine
+//sp_sanboxとは、サンドボックスを実装するためのパレットです。
+use sp_sandbox
+//sp_runtimeとは、ランタイムを実装するためのパレットです。
+use sp_runtime
+//sp_stakeingとは、ステーキングを実装するためのパレットです。
+pub trait OnStakerSlash<AccountId, Balance> {
+    fn on_slash(
+        stash: &AccountId,
+        slashed_active: Balance,
+        slashed_unlocking: &BTreeMap<EraIndex, Balance>
+    );
+}
+//OnStakerSlashとは、ステーカーのスラッシュを実装するためのパレットです。
+//pub use self::dispatch::Callable
+pub use self::dispatch::Callable;
+//Callableとは、コール可能を実装するためのパレットです。
+//pub use self::dispatch::Parameter;
+pub use self::dispatch::Parameter;
+//Parameterとは、パラメーターを実装するためのパレットです。
+//pub use self::storage::StorageMap;
+pub use self::storage::StorageMap;
+//StorageMapとは、ストレージマップを実装するためのパレットです。
+//Module frame_support::dispatch
+Module frame_support::dispatch
+//Module frame_support::storageとは、ストレージを実装するためのパレットです。
+Module frame_support::storage
+//Module frame_support::traitsとは、トレイトを実装するためのパレットです。
+Module frame_support::traits
+//「A pallet for atomically sending funds from an origin to a target. A proof is used to allow the target to approve (claim) the swap. If the swap is not claimed within a specified duration of time, the sender may cancel it.」とは、オリジンからターゲットにファンドをアトミックに送信するためのパレットです。証明書を使用して、ターゲットがスワップを承認（請求）できるようにします。スワップが指定された時間内に請求されない場合、送信者はキャンセルできます。
+//pallet_atomic_swapとは、アトミックスワップを実装するためのパレットです。
+//fixed_pointとは、固定小数点を実装するためのパレットです。
+use fixed_point
+//pallet_balancesとは、バランスを実装するためのパレットです。
+
