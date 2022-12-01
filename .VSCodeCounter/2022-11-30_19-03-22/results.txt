@@ -1,0 +1,97 @@
+Date : 2022-11-30 19:03:22
+Directory : /Users/user/init/myApp/1day10k/1130
+Total : 45 files,  718 codes, 66 comments, 243 blanks, all 1027 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Solidity   |         15 |        480 |         65 |        171 |        716 |
+| JavaScript |         12 |        206 |          1 |         56 |        263 |
+| Markdown   |         18 |         32 |          0 |         16 |         48 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                          | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                             |         45 |        718 |         66 |        243 |      1,027 |
+| auction                                                                       |          3 |        129 |         53 |         40 |        222 |
+| count                                                                         |          4 |         85 |          0 |         26 |        111 |
+| erc20                                                                         |          3 |         60 |          0 |         21 |         81 |
+| erc721                                                                        |          2 |         37 |          0 |         10 |         47 |
+| other                                                                         |         26 |        207 |          4 |         94 |        305 |
+| other/10000                                                                   |          1 |         50 |          3 |         22 |         75 |
+| other/1130                                                                    |         21 |        112 |          1 |         54 |        167 |
+| other/1130/1000                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/1100                                                               |          3 |         62 |          0 |         23 |         85 |
+| other/1130/1200                                                               |          3 |         34 |          1 |         17 |         52 |
+| other/1130/1300                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/1400                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/1500                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/1600                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/1700                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/1800                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/1900                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/2000                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/2100                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/2200                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/2300                                                               |          1 |          0 |          0 |          1 |          1 |
+| other/1130/800                                                                |          1 |          0 |          0 |          1 |          1 |
+| other/1130/900                                                                |          1 |          0 |          0 |          1 |          1 |
+| other/board                                                                   |          2 |          7 |          0 |          5 |         12 |
+| stake                                                                         |          1 |         40 |          9 |         16 |         65 |
+| todo                                                                          |          3 |        119 |          0 |         29 |        148 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                      | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/user/init/myApp/1day10k/1130/TimeLock.sol                              | Solidity   |         25 |          0 |          6 |         31 |
+| /Users/user/init/myApp/1day10k/1130/auction/Auction.sol                       | Solidity   |         64 |         52 |         23 |        139 |
+| /Users/user/init/myApp/1day10k/1130/auction/auction.js                        | JavaScript |         45 |          0 |         12 |         57 |
+| /Users/user/init/myApp/1day10k/1130/auction/auction.test.js                   | JavaScript |         20 |          1 |          5 |         26 |
+| /Users/user/init/myApp/1day10k/1130/count/count.js                            | JavaScript |         24 |          0 |          5 |         29 |
+| /Users/user/init/myApp/1day10k/1130/count/count.sol                           | Solidity   |         34 |          0 |         13 |         47 |
+| /Users/user/init/myApp/1day10k/1130/count/count.test.js                       | JavaScript |          5 |          0 |          2 |          7 |
+| /Users/user/init/myApp/1day10k/1130/count/countSol.js                         | JavaScript |         22 |          0 |          6 |         28 |
+| /Users/user/init/myApp/1day10k/1130/deploy.js                                 | JavaScript |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/erc20/ERC20.sol                           | Solidity   |         44 |          0 |         15 |         59 |
+| /Users/user/init/myApp/1day10k/1130/erc20/erc20.js                            | JavaScript |         16 |          0 |          5 |         21 |
+| /Users/user/init/myApp/1day10k/1130/erc20/erc20.test.js                       | JavaScript |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/erc721/ERC721.sol                         | Solidity   |         37 |          0 |          9 |         46 |
+| /Users/user/init/myApp/1day10k/1130/erc721/erc721.test.js                     | JavaScript |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/line.md                                   | Markdown   |         16 |          0 |          0 |         16 |
+| /Users/user/init/myApp/1day10k/1130/other/10000/10000.sol                     | Solidity   |         50 |          3 |         22 |         75 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1000/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1100/NewContract.sol           | Solidity   |         19 |          0 |          3 |         22 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1100/Vault.sol                 | Solidity   |         43 |          0 |         19 |         62 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1100/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1200/UniDirectionalPayment.sol | Solidity   |         19 |          0 |          7 |         26 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1200/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1200/test.sol                  | Solidity   |         15 |          1 |          9 |         25 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1300/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1400/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1500/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1600/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1700/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1800/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/1900/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/2000/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/2100/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/2200/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/2300/test.md                   | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/800/test.md                    | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/900/test.md                    | Markdown   |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1130/other/1130/行数.md                          | Markdown   |         16 |          0 |          0 |         16 |
+| /Users/user/init/myApp/1day10k/1130/other/board/board.js                      | JavaScript |          4 |          0 |          3 |          7 |
+| /Users/user/init/myApp/1day10k/1130/other/board/board.sol                     | Solidity   |          3 |          0 |          2 |          5 |
+| /Users/user/init/myApp/1day10k/1130/other/farm.sol                            | Solidity   |         18 |          0 |          5 |         23 |
+| /Users/user/init/myApp/1day10k/1130/other/payment.sol                         | Solidity   |         20 |          0 |          8 |         28 |
+| /Users/user/init/myApp/1day10k/1130/stake/staking.sol                         | Solidity   |         40 |          9 |         16 |         65 |
+| /Users/user/init/myApp/1day10k/1130/todo/todo.js                              | JavaScript |         43 |          0 |          8 |         51 |
+| /Users/user/init/myApp/1day10k/1130/todo/todo.sol                             | Solidity   |         49 |          0 |         14 |         63 |
+| /Users/user/init/myApp/1day10k/1130/todo/todoSol.js                           | JavaScript |         27 |          0 |          7 |         34 |
+| Total                                                                         |            |        718 |         66 |        243 |      1,027 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

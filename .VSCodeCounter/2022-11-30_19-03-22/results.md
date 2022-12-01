@@ -1,0 +1,49 @@
+# Summary
+
+Date : 2022-11-30 19:03:22
+
+Directory /Users/user/init/myApp/1day10k/1130
+
+Total : 45 files,  718 codes, 66 comments, 243 blanks, all 1027 lines
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| Solidity | 15 | 480 | 65 | 171 | 716 |
+| JavaScript | 12 | 206 | 1 | 56 | 263 |
+| Markdown | 18 | 32 | 0 | 16 | 48 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 45 | 718 | 66 | 243 | 1,027 |
+| auction | 3 | 129 | 53 | 40 | 222 |
+| count | 4 | 85 | 0 | 26 | 111 |
+| erc20 | 3 | 60 | 0 | 21 | 81 |
+| erc721 | 2 | 37 | 0 | 10 | 47 |
+| other | 26 | 207 | 4 | 94 | 305 |
+| other/10000 | 1 | 50 | 3 | 22 | 75 |
+| other/1130 | 21 | 112 | 1 | 54 | 167 |
+| other/1130/1000 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/1100 | 3 | 62 | 0 | 23 | 85 |
+| other/1130/1200 | 3 | 34 | 1 | 17 | 52 |
+| other/1130/1300 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/1400 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/1500 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/1600 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/1700 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/1800 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/1900 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/2000 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/2100 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/2200 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/2300 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/800 | 1 | 0 | 0 | 1 | 1 |
+| other/1130/900 | 1 | 0 | 0 | 1 | 1 |
+| other/board | 2 | 7 | 0 | 5 | 12 |
+| stake | 1 | 40 | 9 | 16 | 65 |
+| todo | 3 | 119 | 0 | 29 | 148 |
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
