@@ -7,5 +7,6 @@ contract Statement {
         statement = _statement;
     }
 
-    
+   
 }
+
