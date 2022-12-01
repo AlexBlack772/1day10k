@@ -80,7 +80,7 @@ contract Auction {
       }
    
       function finalizeAuction() public {
-         require(auctionState == State.Canceled || block.number > endBlock);
+         require(auctionState == State.Canceled || block.number > endAt);
          require(msg.sender == owner || bids[msg.sender] > 0);
    
          address payable recipient;
@@ -97,4 +97,6 @@ contract Auction {
                }
          }
       }
+
+      fucntion 
 }

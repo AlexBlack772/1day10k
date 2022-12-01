@@ -80,7 +80,7 @@ contract ERC721 is IERC721 {
       }
 
       function _burn(address owner, uint tokenId) internal {
-            require(ownerOf(tokenId) == owner, 'not owner');
+            require(owner(tokenId) == owner, 'not owner');
 
             balances[owner] -= 1;
             emit Transfer(owner, address(0), tokenId);
