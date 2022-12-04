@@ -1,0 +1,32 @@
+"filename", "language", "Solidity", "JavaScript React", "JavaScript", "comment", "blank", "total"
+"/Users/user/init/myApp/1day10k/1203/bazaar/bazaar.sol", "Solidity", 1, 0, 0, 0, 1, 2
+"/Users/user/init/myApp/1day10k/1203/bookOff/bookof..sol", "Solidity", 10, 0, 0, 7, 10, 27
+"/Users/user/init/myApp/1day10k/1203/daikokuya/daikokuya.jsx", "JavaScript React", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/daikokuya/daikokuya.sol", "Solidity", 29, 0, 0, 0, 12, 41
+"/Users/user/init/myApp/1day10k/1203/daikokuya/daikokuya.test.js", "JavaScript", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/example.js", "JavaScript", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/example.jsx", "JavaScript React", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/example.sol", "Solidity", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/example.test.js", "JavaScript", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/jsx/express.js", "JavaScript", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/jsx/express.jsx", "JavaScript React", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/jsx/statement.js", "JavaScript", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/jsx/statement.jsx", "JavaScript React", 0, 10, 0, 0, 5, 15
+"/Users/user/init/myApp/1day10k/1203/example/sol/express.sol", "Solidity", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/sol/statement.sol", "Solidity", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/test/example.test.js", "JavaScript", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/machine/senpuuki/senpuuki.sol", "Solidity", 34, 0, 0, 0, 12, 46
+"/Users/user/init/myApp/1day10k/1203/machine/senpuuki/senpuuki.test.js", "JavaScript", 0, 0, 22, 0, 6, 28
+"/Users/user/init/myApp/1day10k/1203/machine/senpuuki/sunpuuki.jsx", "JavaScript React", 0, 26, 0, 0, 12, 38
+"/Users/user/init/myApp/1day10k/1203/machine/vendingmachine/VendingMachine.test.js", "JavaScript", 0, 0, 22, 0, 4, 26
+"/Users/user/init/myApp/1day10k/1203/machine/vendingmachine/vendingMachine.sol", "Solidity", 25, 0, 0, 0, 12, 37
+"/Users/user/init/myApp/1day10k/1203/machine/vendingmachine/vendingmachine.jsx", "JavaScript React", 0, 31, 0, 1, 9, 41
+"/Users/user/init/myApp/1day10k/1203/shopService/debit/debit.jsx", "JavaScript React", 0, 25, 0, 0, 4, 29
+"/Users/user/init/myApp/1day10k/1203/shopService/debit/debit.sol", "Solidity", 5, 0, 0, 15, 2, 22
+"/Users/user/init/myApp/1day10k/1203/shopService/debit/debit.test.js", "JavaScript", 0, 0, 12, 0, 6, 18
+"/Users/user/init/myApp/1day10k/1203/syoushisyakinyuu.sol", "Solidity", 18, 0, 0, 0, 8, 26
+"/Users/user/init/myApp/1day10k/1203/webService/merucari/merucari.sol", "Solidity", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/webService/yahuoku/yahuoku.jsx", "JavaScript React", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/webService/yahuoku/yahuoku.sol", "Solidity", 28, 0, 0, 0, 8, 36
+"/Users/user/init/myApp/1day10k/1203/webService/yahuoku/yahuoku.test.js", "JavaScript", 0, 0, 0, 0, 1, 1
+"Total", "-", 150, 92, 56, 23, 126, 447

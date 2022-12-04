@@ -1,0 +1,45 @@
+"filename", "language", "Solidity", "JavaScript", "JavaScript React", "Markdown", "comment", "blank", "total"
+"/Users/user/init/myApp/1day10k/1203/debit/debit.sol", "Solidity", 5, 0, 0, 0, 15, 2, 22
+"/Users/user/init/myApp/1day10k/1203/example/example.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/example.jsx", "JavaScript React", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/example.sol", "Solidity", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/example.test.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/jsx/express.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/jsx/express.jsx", "JavaScript React", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/jsx/statement.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/jsx/statement.jsx", "JavaScript React", 0, 0, 10, 0, 0, 5, 15
+"/Users/user/init/myApp/1day10k/1203/example/sol/express.sol", "Solidity", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/sol/statement.sol", "Solidity", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/example/test/example.test.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/senpuuki/senpuuki.sol", "Solidity", 34, 0, 0, 0, 0, 12, 46
+"/Users/user/init/myApp/1day10k/1203/senpuuki/senpuuki.test.js", "JavaScript", 0, 22, 0, 0, 0, 6, 28
+"/Users/user/init/myApp/1day10k/1203/senpuuki/sunpuuki.jsx", "JavaScript React", 0, 0, 26, 0, 0, 12, 38
+"/Users/user/init/myApp/1day10k/1203/seri.sol", "Solidity", 1, 0, 0, 0, 0, 1, 2
+"/Users/user/init/myApp/1day10k/1203/thing/chair/chair.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/thing/chair/chair.sol", "Solidity", 12, 0, 0, 0, 0, 8, 20
+"/Users/user/init/myApp/1day10k/1203/thing/door/door.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/thing/door/door.sol", "Solidity", 21, 0, 0, 0, 0, 8, 29
+"/Users/user/init/myApp/1day10k/1203/vendingmachine/VendingMachine.test.js", "JavaScript", 0, 22, 0, 0, 0, 4, 26
+"/Users/user/init/myApp/1day10k/1203/vendingmachine/vendingMachine.sol", "Solidity", 25, 0, 0, 0, 0, 12, 37
+"/Users/user/init/myApp/1day10k/1203/vendingmachine/vendingmachine.jsx", "JavaScript React", 0, 0, 31, 0, 1, 9, 41
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/auction/auction.jsx", "JavaScript React", 0, 0, -9, 0, 0, -4, -13
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/auction/auction.sol", "Solidity", -46, 0, 0, 0, 0, -14, -60
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/auction/ductAuction.sol", "Solidity", -45, 0, 0, 0, -10, -8, -63
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/crowFund/crowFund.sol", "Solidity", -63, 0, 0, 0, -10, -13, -86
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/erc/erc20.sol", "Solidity", -33, 0, 0, 0, 0, -9, -42
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/erc/erc721.sol", "Solidity", -4, 0, 0, 0, 0, -3, -7
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/example/example.js", "JavaScript", 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/example/example.sol", "Solidity", 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/example/example.test.js", "JavaScript", 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/js/express.js", "JavaScript", 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/js/statement.js", "JavaScript", 0, -35, 0, 0, 0, -11, -46
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/line.md", "Markdown", 0, 0, 0, -16, 0, 0, -16
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/sol/express.sol", "Solidity", 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/sol/statement.sol", "Solidity", -7, 0, 0, 0, 0, -5, -12
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/test/example.test.js", "JavaScript", 0, -11, 0, 0, -1, -4, -16
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/thing/chair/chair.js", "JavaScript", 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/thing/chair/chair.sol", "Solidity", -13, 0, 0, 0, 0, -8, -21
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/thing/door/door.js", "JavaScript", 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/thing/door/door.sol", "Solidity", -21, 0, 0, 0, 0, -8, -29
+"/Users/user/init/myApp/1day10k/2020-/2022/202212/1201-1210/1202/vendingmachine.sol", "Solidity", -17, 0, 0, 0, 0, -7, -24
+"Total", "-", -151, -2, 58, -16, -5, -10, -126

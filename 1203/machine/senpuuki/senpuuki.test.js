@@ -19,9 +19,10 @@ descrtibe('Senpuuki', function () {
       expect(stop().emit).to.be.a('stop');
    })
 
-   it(
-      
-   )
+   it('balanceOf', async function () {
+      const balanceOf = await senpuuki.balanceOf();
+      expect(balanceOf().emit).to.be.a('balanceOf');
+   })
 
 })
    

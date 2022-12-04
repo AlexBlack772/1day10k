@@ -1,0 +1,24 @@
+"filename", "language", "Solidity", "JavaScript React", "JavaScript", "comment", "blank", "total"
+"/Users/user/init/myApp/1day10k/1203/bazaar/bazaar.sol", "Solidity", -1, 0, 0, 0, -1, -2
+"/Users/user/init/myApp/1day10k/1203/bookOff/bookof..sol", "Solidity", -10, 0, 0, -7, -10, -27
+"/Users/user/init/myApp/1day10k/1203/c2cService/bazaar/bazaar.sol", "Solidity", 1, 0, 0, 0, 1, 2
+"/Users/user/init/myApp/1day10k/1203/daikokuya/daikokuya.jsx", "JavaScript React", 0, 0, 0, 0, -1, -1
+"/Users/user/init/myApp/1day10k/1203/daikokuya/daikokuya.sol", "Solidity", -29, 0, 0, 0, -12, -41
+"/Users/user/init/myApp/1day10k/1203/daikokuya/daikokuya.test.js", "JavaScript", 0, 0, 0, 0, -1, -1
+"/Users/user/init/myApp/1day10k/1203/example/jsx/statement.jsx", "JavaScript React", 0, -10, 0, 0, -4, -14
+"/Users/user/init/myApp/1day10k/1203/gov/fes/senkyo.sol", "Solidity", 24, 0, 0, 0, 11, 35
+"/Users/user/init/myApp/1day10k/1203/gov/fes/syuusyokukatsudou/syuusyokukatsudou.sol", "Solidity", 11, 0, 0, 0, 10, 21
+"/Users/user/init/myApp/1day10k/1203/gov/gov.sol", "Solidity", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/hoken.sol", "Solidity", 8, 0, 0, 0, 5, 13
+"/Users/user/init/myApp/1day10k/1203/kogiiteYokin.sol", "Solidity", 16, 0, 0, 0, 11, 27
+"/Users/user/init/myApp/1day10k/1203/shopService/bookOff/bookof..sol", "Solidity", 10, 0, 0, 7, 10, 27
+"/Users/user/init/myApp/1day10k/1203/shopService/daikokuya/daikokuya.jsx", "JavaScript React", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/shopService/daikokuya/daikokuya.sol", "Solidity", 29, 0, 0, 0, 12, 41
+"/Users/user/init/myApp/1day10k/1203/shopService/daikokuya/daikokuya.test.js", "JavaScript", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/shopService/syoushisyaKinyuu/syoushisyakinyuu.jsx", "JavaScript React", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/shopService/syoushisyaKinyuu/syoushisyakinyuu.sol", "Solidity", 18, 0, 0, 0, 8, 26
+"/Users/user/init/myApp/1day10k/1203/shopService/syoushisyaKinyuu/syoushisyakinyuu.test.js", "JavaScript", 0, 0, 0, 0, 1, 1
+"/Users/user/init/myApp/1day10k/1203/syoushisyakinyuu.sol", "Solidity", -18, 0, 0, 0, -8, -26
+"/Users/user/init/myApp/1day10k/1203/yuutyo/futsuuYokin.sol", "Solidity", 26, 0, 0, 0, 7, 33
+"/Users/user/init/myApp/1day10k/1203/yuutyo/teikiYokin.sol", "Solidity", 24, 0, 0, 0, 7, 31
+"Total", "-", 109, -10, 0, 0, 50, 149
