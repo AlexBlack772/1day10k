@@ -2,7 +2,7 @@ sol
 govern[vesting]
 auction[eng,dutch,lock]
 crowdFund[std,vesting]
-dex[staking,farm,swap,pair,]
+dex[staking,farm,swap,pair]
 lend[flashloan,stock,collateral,vault]
 stable[coin,dex]
 nft[market,erc721]
@@ -12,5 +12,3 @@ math[math,random]
 sentence[if try catch,function]
 crud[todo]
 sign[]
-
-
