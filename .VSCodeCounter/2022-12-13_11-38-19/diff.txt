@@ -1,0 +1,111 @@
+Date : 2022-12-13 11:38:19
+Directory : /Users/user/init/myApp/1day10k/1213
+Total : 55 files,  -128 codes, -4 comments, -60 blanks, all -192 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Solidity         |         11 |         93 |          0 |         34 |        127 |
+| JavaScript       |          8 |          0 |          0 |          0 |          0 |
+| Markdown         |          2 |          0 |          0 |          0 |          0 |
+| JSON             |          3 |         -3 |          0 |          0 |         -3 |
+| TOML             |          2 |         -9 |         -3 |         -5 |        -17 |
+| JavaScript React |          7 |        -17 |         -1 |         -7 |        -25 |
+| Rust             |         22 |       -192 |          0 |        -82 |       -274 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                            | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                               |         55 |       -128 |         -4 |        -60 |       -192 |
+| ..                                                                                                              |         31 |       -395 |         -4 |       -141 |       -540 |
+| ../1209                                                                                                         |         31 |       -395 |         -4 |       -141 |       -540 |
+| ../1209/account                                                                                                 |          9 |        -86 |         -3 |        -33 |       -122 |
+| ../1209/account/app                                                                                             |          2 |        -61 |          0 |        -20 |        -81 |
+| ../1209/account/src                                                                                             |          2 |        -13 |          0 |         -8 |        -21 |
+| ../1209/account/target                                                                                          |          3 |         -3 |          0 |          0 |         -3 |
+| ../1209/account/target/debug                                                                                    |          2 |         -2 |          0 |          0 |         -2 |
+| ../1209/account/target/debug/.fingerprint                                                                       |          2 |         -2 |          0 |          0 |         -2 |
+| ../1209/account/target/debug/.fingerprint/account-63acac1a596fa1f7                                              |          1 |         -1 |          0 |          0 |         -1 |
+| ../1209/account/target/debug/.fingerprint/account-b667e710bd1a8b9d                                              |          1 |         -1 |          0 |          0 |         -1 |
+| ../1209/example                                                                                                 |         14 |          0 |          0 |        -14 |        -14 |
+| ../1209/example/jsx                                                                                             |          4 |          0 |          0 |         -4 |         -4 |
+| ../1209/example/rs                                                                                              |          2 |          0 |          0 |         -2 |         -2 |
+| ../1209/example/sol                                                                                             |          2 |          0 |          0 |         -2 |         -2 |
+| ../1209/example/test                                                                                            |          2 |          0 |          0 |         -2 |         -2 |
+| ../1209/machine                                                                                                 |          2 |        -73 |          0 |        -25 |        -98 |
+| ../1209/shopService                                                                                             |          2 |       -107 |          0 |        -18 |       -125 |
+| ../1209/thing                                                                                                   |          3 |       -113 |         -1 |        -51 |       -165 |
+| ../1209/thing/chair                                                                                             |          2 |        -28 |         -1 |        -17 |        -46 |
+| example                                                                                                         |         14 |          0 |          0 |         14 |         14 |
+| example/jsx                                                                                                     |          4 |          0 |          0 |          4 |          4 |
+| example/rs                                                                                                      |          2 |          0 |          0 |          2 |          2 |
+| example/sol                                                                                                     |          2 |          0 |          0 |          2 |          2 |
+| example/test                                                                                                    |          2 |          0 |          0 |          2 |          2 |
+| rs                                                                                                              |          4 |        158 |          0 |         33 |        191 |
+| sol                                                                                                             |          2 |         32 |          0 |         11 |         43 |
++-----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                                        | language         | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| /Users/user/init/myApp/1day10k/1209/account/Cargo.lock                                                          | TOML             |         -4 |         -2 |         -2 |         -8 |
+| /Users/user/init/myApp/1day10k/1209/account/Cargo.toml                                                          | TOML             |         -5 |         -1 |         -3 |         -9 |
+| /Users/user/init/myApp/1day10k/1209/account/app/brige.rs                                                        | Rust             |        -15 |          0 |         -6 |        -21 |
+| /Users/user/init/myApp/1day10k/1209/account/app/stableCoin.rs                                                   | Rust             |        -46 |          0 |        -14 |        -60 |
+| /Users/user/init/myApp/1day10k/1209/account/src/lib.rs                                                          | Rust             |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/account/src/main.rs                                                         | Rust             |        -13 |          0 |         -7 |        -20 |
+| /Users/user/init/myApp/1day10k/1209/account/target/.rustc_info.json                                             | JSON             |         -1 |          0 |          0 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/account/target/debug/.fingerprint/account-63acac1a596fa1f7/bin-account.json | JSON             |         -1 |          0 |          0 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/account/target/debug/.fingerprint/account-b667e710bd1a8b9d/lib-account.json | JSON             |         -1 |          0 |          0 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/example.jsx                                                         | JavaScript React |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/example.rs                                                          | Rust             |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/example.sol                                                         | Solidity         |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/example.test.js                                                     | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/jsx/express.js                                                      | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/jsx/express.jsx                                                     | JavaScript React |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/jsx/statement.js                                                    | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/jsx/statement.jsx                                                   | JavaScript React |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/rs/express.rs                                                       | Rust             |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/rs/statement.rs                                                     | Rust             |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/sol/express.sol                                                     | Solidity         |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/sol/statement.sol                                                   | Solidity         |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/test/example.rs                                                     | Rust             |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/example/test/example.test.js                                                | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/myApp/1day10k/1209/line.md                                                                     | Markdown         |        -16 |          0 |          0 |        -16 |
+| /Users/user/init/myApp/1day10k/1209/machine/vendingmachine.rs                                                   | Rust             |        -27 |          0 |         -8 |        -35 |
+| /Users/user/init/myApp/1day10k/1209/machine/washMachine.rs                                                      | Rust             |        -46 |          0 |        -17 |        -63 |
+| /Users/user/init/myApp/1day10k/1209/shopService/bookOff.rs                                                      | Rust             |        -34 |          0 |         -9 |        -43 |
+| /Users/user/init/myApp/1day10k/1209/shopService/ginkou.rs                                                       | Rust             |        -73 |          0 |         -9 |        -82 |
+| /Users/user/init/myApp/1day10k/1209/thing/chair/chair.jsx                                                       | JavaScript React |        -17 |         -1 |         -7 |        -25 |
+| /Users/user/init/myApp/1day10k/1209/thing/chair/chair.rs                                                        | Rust             |        -11 |          0 |        -10 |        -21 |
+| /Users/user/init/myApp/1day10k/1209/thing/express.rs                                                            | Rust             |        -85 |          0 |        -34 |       -119 |
+| /Users/user/init/myApp/1day10k/1213/erc20.sol                                                                   | Solidity         |         34 |          0 |          9 |         43 |
+| /Users/user/init/myApp/1day10k/1213/erc721.sol                                                                  | Solidity         |         27 |          0 |         13 |         40 |
+| /Users/user/init/myApp/1day10k/1213/example/example.jsx                                                         | JavaScript React |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/example.rs                                                          | Rust             |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/example.sol                                                         | Solidity         |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/example.test.js                                                     | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/jsx/express.js                                                      | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/jsx/express.jsx                                                     | JavaScript React |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/jsx/statement.js                                                    | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/jsx/statement.jsx                                                   | JavaScript React |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/rs/express.rs                                                       | Rust             |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/rs/statement.rs                                                     | Rust             |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/sol/express.sol                                                     | Solidity         |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/sol/statement.sol                                                   | Solidity         |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/test/example.rs                                                     | Rust             |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/example/test/example.test.js                                                | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/line.md                                                                     | Markdown         |         16 |          0 |          0 |         16 |
+| /Users/user/init/myApp/1day10k/1213/rs/express.rs                                                               | Rust             |        122 |          0 |         18 |        140 |
+| /Users/user/init/myApp/1day10k/1213/rs/service.rs                                                               | Rust             |         25 |          0 |         10 |         35 |
+| /Users/user/init/myApp/1day10k/1213/rs/test.rs                                                                  | Rust             |          0 |          0 |          1 |          1 |
+| /Users/user/init/myApp/1day10k/1213/rs/vm.rs                                                                    | Rust             |         11 |          0 |          4 |         15 |
+| /Users/user/init/myApp/1day10k/1213/sol/stable.sol                                                              | Solidity         |         16 |          0 |          5 |         21 |
+| /Users/user/init/myApp/1day10k/1213/sol/test.sol                                                                | Solidity         |         16 |          0 |          6 |         22 |
+| /Users/user/init/myApp/1day10k/1213/test.sol                                                                    | Solidity         |          0 |          0 |          1 |          1 |
+| Total                                                                                                           |                  |       -128 |         -4 |        -60 |       -192 |
++-----------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
