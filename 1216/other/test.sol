@@ -1,0 +1,9 @@
+function () -> a {
+   
+}
+
+struct test {
+
+}
+
+
