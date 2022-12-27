@@ -1,0 +1,139 @@
+@mixin button-base() {
+  @include typography(button);
+  @include ripple-surface;
+  @include ripple-radius-bounded;
+
+  display: inline-flex;
+  position: relative;
+  height: $button-height;
+  border: none;
+  vertical-align: middle;
+
+  &:hover { cursor: pointer; }
+
+  &:disabled {
+    color: $mdc-button-disabled-ink-color;
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+//mixinとは、複数のスタイルをまとめて定義することができるものです。今回は、button-baseという名前のmixinを定義しています。mixinの中には、@includeという記述があります。これは、mixinの中で別のmixinを呼び出すことができます。今回は、typographyというmixinと、ripple-surfaceというmixinを呼び出しています。
+
+//includeされたmixinの中身を見てみましょう。typographyというmixinは、以下のように定義されています。
+
+p /* Multi-line comments can be written anywhere
+   * whitespace is allowed. */ .sans {
+  font: Helvetica, // So can single-line comments.
+        sans-serif;
+}
+
+//@useと@forwardの違い
+//@useとは、Sassのモジュールシステムを利用するための記述です。@useを使うと、モジュールをインポートすることができます。@forwardは、@useと同じようにモジュールをインポートすることができます。@useと@forwardの違いは、インポートされたモジュールの中身をどのように利用するかの違いです。@useを使うと、インポートされたモジュールの中身を、モジュール名をつけて利用することができます。@forwardを使うと、インポートされたモジュールの中身を、モジュール名をつけずに利用することができます。今回は、@useを使って、material-components-webのモジュールをインポートしています。
+// foundation/_lists.scss
+ul, ol {
+  text-align: left;
+
+  & & {
+    padding: {
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+$radius: 3px;
+
+@mixin rounded {
+  border-radius: $radius;
+}
+
+// src/_corners.scss
+$radius: 3px;
+
+@mixin rounded {
+  border-radius: $radius;
+}
+
+//@forwardとは、@useと同じようにモジュールをインポートすることができます。@forwardを使うと、インポートされたモジュールの中身を、モジュール名をつけずに利用することができます。今回は、@forwardを使って、material-components-webのモジュールをインポートしています。
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+$horizontal-list-gap: 2em;
+
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin list-horizontal {
+  @include list-reset;
+
+  li {
+    display: inline-block;
+    margin: {
+      left: -2px;
+      right: $horizontal-list-gap;
+    }
+  }
+}
+
+$black: #000 !default;
+$border-radius: 0.25rem !default;
+$box-shadow: 0 0.5rem 1rem rgba($black, 0.15) !default;
+
+code {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+// foundation/_lists.scss
+ul, ol {
+  text-align: left;
+
+  & & {
+    padding: {
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+// foundation/_lists.scss
+ul, ol {
+  text-align: left;
+
+  & & {
+    padding: {
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+// _theme.scss
+pre, code {
+  font-family: 'Source Code Pro', Helvetica, Arial;
+  border-radius: 4px;
+}
+
+//@functionとは、Sassの関数を定義するための記述です。今回は、button-heightという関数を定義しています。関数の中では、@returnという記述を使うことで、関数の戻り値を定義することができます。今回は、$button-heightという変数を戻り値として定義しています。
+
+//@extendとは、スタイルを継承するための記述です。今回は、.mdc-buttonというクラスに、.mdc-button--raisedというクラスのスタイルを継承しています。.mdc-button--raisedというクラスのスタ、以下のように定義されています。
+
+code {
+  padding: .25em;
+  line-height: 0;
+}
+
+@mixin google-font($family) {
+  @import url("http://fonts.googleapis.com/css?family=#{$family}");
+}
+
+@include google-font("Droid Sans");
+

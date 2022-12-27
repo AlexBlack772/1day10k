@@ -1,0 +1,27 @@
+"filename", "language", "JavaScript", "Markdown", "JavaScript React", "Solidity", "Rust", "comment", "blank", "total"
+"/Users/user/init/1day10k/1226/chai.test.js", "JavaScript", 84, 0, 0, 0, 0, 70, 72, 226
+"/Users/user/init/1day10k/1226/example/example.cjs", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/example.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/example.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/expressJs/express.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/expressJs/statement.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/jsx/express.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/jsx/express.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/jsx/statement.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/jsx/statement.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/other/example.rs", "Rust", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/other/example.sol", "Solidity", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/other/example.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/other/rs/express.rs", "Rust", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/other/rs/statement.rs", "Rust", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/other/sol/express.sol", "Solidity", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/other/sol/statement.sol", "Solidity", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/other/test/example.rs", "Rust", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/other/test/example.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/prisma/bd.js", "JavaScript", 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/jest.test.js", "JavaScript", 412, 0, 0, 0, 0, 70, 131, 613
+"/Users/user/init/1day10k/1226/line.md", "Markdown", 0, 16, 0, 0, 0, 0, 1, 17
+"/Users/user/init/1day10k/1226/next.jsx", "JavaScript React", 0, 0, 392, 0, 0, 63, 107, 562
+"/Users/user/init/1day10k/1226/racttestlib.test.js", "JavaScript", 14, 0, 0, 0, 0, 5, 7, 26
+"/Users/user/init/1day10k/1226/recoil.js", "JavaScript", 66, 0, 0, 0, 0, 26, 39, 131
+"Total", "-", 576, 16, 392, 0, 0, 234, 376, 1594

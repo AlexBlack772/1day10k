@@ -1,0 +1,156 @@
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://johndoe:mypassword@localhost:5432/mydb?schema=public"
+}
+
+//datasourceとは、データベースの接続情報を記述するための構文
+//providerは、データベースの種類を指定する
+//urlは、データベースの接続情報を指定する
+//schemaは、データベースのスキーマを指定する
+
+//generatorは、Prisma Clientを生成するための構文
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator client {
+  provider      = "prisma-client-js"
+  output        = "node_modules/.prisma/client"
+  engineType    = "library"
+  binaryTargets = ["native"]
+}
+
+//engineTypeは、Prisma Clientの実行環境を指定する
+//binaryTargetsは、Prisma Clientのバイナリを生成するためのターゲットを指定する
+
+//modelは、データベースのテーブルを表す構文
+
+//modelは、データベースのテーブルを表す構文
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  posts     Post[]
+  profile   Profile?
+}
+
+//@uniqueは、ユニーク制約を指定する
+//@defaultは、デフォルト値を指定する
+//@idは、主キーを指定する
+//@@idは、複合主キーを指定する
+//@@mapは、テーブル名を指定する
+//@@indexは、インデックスを指定する
+
+//@dbは、カラム名を指定する
+//@relationは、外部キーを指定する
+//@db.Uuidは、UUID型を指定する
+//@db.Citextは、citext型を指定する
+//@db.Inetは、inet型を指定する
+//@db.Jsonbは、jsonb型を指定する
+
+//@db.Booleanは、boolean型を指定する
+
+//@db.Dateは、date型を指定する
+
+model User {
+  id   Int     @id @default(autoincrement())
+  name String?
+}
+
+//?は、nullを許容することを指定する
+
+//@idは、主キーを指定する
+//@@idは、複合主キーを指定する
+//@defaultは、デフォルト値を指定する
+//@@uniqueは、ユニーク制約を指定する
+//@@indexは、インデックスを指定する
+//@@mapは、テーブル名を指定する
+//@relationは、外部キーを指定する
+//@updatedAtは、更新日時を指定する
+//@createdAtは、作成日時を指定する
+//@ignoreは、カラムを無視する
+//@dbは、カラム名を指定する
+
+//id  String  @map("_id") @db.ObjectId @default(auto())
+
+model User {
+  id   String  @id @default(auto()) @map("_id") @db.ObjectId
+  name String?
+}
+
+//auto()は、自動採番を指定する
+auto()
+//uuid()は、UUIDを指定する
+uuid()
+//sequence()は、シーケンスを指定する
+sequence()
+//cuid()は、cuidを指定する
+cuid()
+//dbgenerated()は、データベースによって自動採番される値を指定する
+dbgenerated()
+//expression()は、式を指定する
+expression()
+//now()は、現在日時を指定する
+now()
+//dbgenerated()は、データベースによって自動採番される値を指定する
+dbgenerated()
+model User {
+  id   Int    @id @default(autoincrement())
+  name String
+}
+
+//
+
+enum Role {
+  ADMIN     @map("admin")
+  CUSTOMER
+}
+
+model User {
+  id   Int    @id @default(autoincrement())
+  name String
+
+  @@map("users")
+}
+
+await prisma.user.create({
+  // users --> user
+  data: {
+    name: 'Yewande',
+  },
+})
+
+model Post {
+  id      Int     @id @default(autoincrement())
+  title   String
+  content String?
+
+  @@index([title])
+}
+//@@indexは、インデックスを指定する
+//@defaultは、デフォルト値を指定する
+
+model User {
+  id        Int     @default(autoincrement())
+  firstName String
+  lastName  String
+  isAdmin   Boolean @default(false)
+
+  @@unique(fields: [firstName, lastName, isAdmin], name: "admin_identifier")
+}
+
+model Post {
+  id        Int     @default(autoincrement())
+  author    User    @relation(fields: [authorId], references: [id])
+  authorId  Int
+  title     String
+  published Boolean @default(false)
+
+  @@unique([authorId, title])
+}
+
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  posts Post[]
+}

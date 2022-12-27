@@ -1,0 +1,11 @@
+"filename", "language", "JavaScript", "JavaScript React", "TypeScript", "Prisma", "comment", "blank", "total"
+"/Users/user/init/1day10k/1226/apollo.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example.ts", "TypeScript", 0, 0, 433, 0, 61, 78, 572
+"/Users/user/init/1day10k/1226/example/test/chai.test.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/example/test/jest.test.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1226/jest.test.js", "JavaScript", 194, 0, 0, 0, 33, 54, 281
+"/Users/user/init/1day10k/1226/next.jsx", "JavaScript React", 0, 18, 0, 0, 6, 8, 32
+"/Users/user/init/1day10k/1226/react.jsx", "JavaScript React", 0, 207, 0, 0, 40, 51, 298
+"/Users/user/init/1day10k/1226/redux.jsx", "JavaScript React", 0, 98, 0, 0, 43, 36, 177
+"/Users/user/init/1day10k/1226/scheme.prisma", "Prisma", 0, 0, 0, 80, 48, 29, 157
+"Total", "-", 194, 323, 433, 80, 231, 259, 1520
