@@ -1,0 +1,38 @@
+"filename", "language", "JavaScript", "Markdown", "JavaScript React", "Prisma", "CSS", "SCSS", "TypeScript", "Rust", "Solidity", "HTTP", "comment", "blank", "total"
+"/Users/user/init/1day10k/1227/db/typeorm.js", "JavaScript", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 7
+"/Users/user/init/1day10k/1227/example/api/express.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/api/statement.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/db/bd.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/db/scheme.prisma", "Prisma", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/example.cjs", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/example.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/example.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/jsx/express.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/jsx/statement.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/jsx/statement.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/lib/react.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/lib/recoil.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/other/example.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/other/example.sol", "Solidity", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/other/example.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/other/protocol/test.http", "HTTP", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 2
+"/Users/user/init/1day10k/1227/example/other/rs/express.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/other/rs/statement.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/other/sol/express.sol", "Solidity", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/other/sol/statement.sol", "Solidity", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/other/test/example.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/other/test/example.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/style/example.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/style/styled.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/test/chai.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/example/test/jest.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1227/hook.jsx", "JavaScript React", 0, 0, 114, 0, 0, 0, 0, 0, 0, 0, 20, 27, 161
+"/Users/user/init/1day10k/1227/jsLib/reduxtoolbox.jsx", "JavaScript React", 0, 0, 112, 0, 0, 0, 0, 0, 0, 0, 90, 43, 245
+"/Users/user/init/1day10k/1227/line.md", "Markdown", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17
+"/Users/user/init/1day10k/1227/native/electron.js", "JavaScript", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 5
+"/Users/user/init/1day10k/1227/native/native.jsx", "JavaScript React", 0, 0, 46, 0, 0, 0, 0, 0, 0, 0, 2, 8, 56
+"/Users/user/init/1day10k/1227/next.js", "JavaScript", 162, 0, 0, 0, 0, 0, 0, 0, 0, 0, 127, 49, 338
+"/Users/user/init/1day10k/1227/nodeLib/axios.js", "JavaScript", 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 11, 43
+"/Users/user/init/1day10k/1227/nodeLib/socket.js", "JavaScript", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 15
+"/Users/user/init/1day10k/1227/sequalize.js", "JavaScript", 209, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 37, 296
+"Total", "-", 406, 16, 272, 0, 0, 0, 0, 0, 0, 1, 306, 209, 1210
