@@ -1,0 +1,10 @@
+p /* Multi-line comments can be written anywhere
+   * whitespace is allowed. */ .sans {
+  font: Helvetica, // So can single-line comments.
+        sans-serif;
+}
+
+p .sans
+  font: Helvetica, /* Inline comments must be closed. */ sans-serif
+
+  
