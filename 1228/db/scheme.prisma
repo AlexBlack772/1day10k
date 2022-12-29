@@ -1,0 +1,123 @@
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://johndoe:mypassword@localhost:5432/mydb?schema=public"
+}
+
+//datasourceとは、データベースの接続情報を記述するためのブロック
+//providerは、データベースの種類を指定する
+//urlは、データベースの接続情報を指定する
+//schemaは、データベースのスキーマを指定する
+
+generator client {
+  provider      = "prisma-client-js"
+  output        = "node_modules/.prisma/client"
+  engineType    = "library"
+  binaryTargets = ["native"]
+}
+
+//generatorとは、Prisma Clientの生成設定を記述するためのブロック
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/client"
+}
+
+model Model {
+  /* ... */
+  myField String @db.Bit(1)
+}
+
+//modelとは、データベースのテーブルを表すためのブロック
+//modelの中には、テーブルのカラムを表すフィールドを記述する
+
+model Star {
+  id       Int                    @id @default(autoincrement())
+  position Unsupported("circle")?
+  example1 Unsupported("circle")
+  circle   Unsupported("circle")? @default(dbgenerated("'<(10,4),11>'::circle"))
+}
+
+//Unsupportedとは、Prismaがサポートしていないデータ型を表す
+//Unsupportedの中には、データベースのデータ型を指定する
+
+//@id(map: String?, length: number?, sort: String?, clustered: Boolean?)とは、主キーを表す
+
+//@default(autoincrement())とは、自動採番を表す
+
+//@default(dbgenerated("'<(10,4),11>'::circle"))とは、デフォルト値を表す
+
+//@default(now())とは、現在日時を表す
+
+//@default(uuid())とは、UUIDを表す
+
+//@default(cuid())とは、CUIDを表す
+
+//modelの中には、テーブルのカラムを表すフィールドを記述する
+model User {
+  id   String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+}
+
+//
+const newUser = await prisma.user.create({
+  data: {
+    id: 1,
+    name: 'Alice',
+  },
+})
+
+model Profile {
+  authorId Int    @id
+  author   User   @relation(fields: [authorId], references: [id])
+  bio      String
+}
+
+model User {
+  id      Int      @id
+  email   String   @unique
+  name    String?
+  profile Profile?
+}
+
+model User {
+  id      Int      @id
+  email   String   @unique
+  name    String?
+  profile Profile? @relation(fields: [id], references: [authorId])
+}
+
+model User {
+  firstName String
+  lastName  String
+  email     String  @unique
+  isAdmin   Boolean @default(false)
+
+  @@id([firstName, lastName])
+}
+
+model Post {
+  title     String
+  published Boolean @default(false)
+  author    User    @relation(fields: [authorId], references: [id])
+  authorId  Int
+
+  @@id([authorId, title])
+}
+
+model User {
+  id    Int     @default(autoincrement())
+  email String  @unique
+  name  String?
+  posts Post[]
+}
+
+//
+const post = await prisma.post.create({
+  data: {
+    title: 'Hello World',
+    author: {
+      connect: {
+        email: 'alice@prisma.io',
+      },
+    },
+  },
+})

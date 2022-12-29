@@ -1,0 +1,135 @@
+Date : 2022-12-28 14:36:00
+Directory : /Users/user/init/1day10k/1228
+Total : 68 files,  -1902 codes, -456 comments, -625 blanks, all -2983 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| HTTP             |          1 |          1 |          1 |          0 |          2 |
+| Markdown         |          2 |          0 |          0 |          0 |          0 |
+| CSS              |          1 |          0 |          0 |          1 |          1 |
+| Rust             |          8 |          0 |          0 |          0 |          0 |
+| Solidity         |          6 |          0 |          0 |          0 |          0 |
+| Prisma           |          2 |        -80 |        -48 |        -28 |       -156 |
+| SCSS             |          2 |        -96 |        -12 |        -31 |       -139 |
+| JavaScript React |         14 |       -369 |        -91 |       -118 |       -578 |
+| TypeScript       |          2 |       -438 |        -61 |        -78 |       -577 |
+| JavaScript       |         30 |       -920 |       -245 |       -371 |     -1,536 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                   | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                      |         68 |     -1,902 |       -456 |       -625 |     -2,983 |
+| ..                                                                                     |         35 |     -2,375 |       -547 |       -767 |     -3,689 |
+| ../2022                                                                                |         35 |     -2,375 |       -547 |       -767 |     -3,689 |
+| ../2022/202212                                                                         |         35 |     -2,375 |       -547 |       -767 |     -3,689 |
+| ../2022/202212/1225-1231                                                               |         35 |     -2,375 |       -547 |       -767 |     -3,689 |
+| ../2022/202212/1225-1231/1226                                                          |         35 |     -2,375 |       -547 |       -767 |     -3,689 |
+| ../2022/202212/1225-1231/1226/api                                                      |          2 |       -206 |        -64 |        -81 |       -351 |
+| ../2022/202212/1225-1231/1226/db                                                       |          1 |        -80 |        -48 |        -29 |       -157 |
+| ../2022/202212/1225-1231/1226/example                                                  |         21 |          0 |          0 |        -21 |        -21 |
+| ../2022/202212/1225-1231/1226/example/expressJs                                        |          2 |          0 |          0 |         -2 |         -2 |
+| ../2022/202212/1225-1231/1226/example/jsx                                              |          4 |          0 |          0 |         -4 |         -4 |
+| ../2022/202212/1225-1231/1226/example/other                                            |          9 |          0 |          0 |         -9 |         -9 |
+| ../2022/202212/1225-1231/1226/example/other/rs                                         |          2 |          0 |          0 |         -2 |         -2 |
+| ../2022/202212/1225-1231/1226/example/other/sol                                        |          2 |          0 |          0 |         -2 |         -2 |
+| ../2022/202212/1225-1231/1226/example/other/test                                       |          2 |          0 |          0 |         -2 |         -2 |
+| ../2022/202212/1225-1231/1226/example/prisma                                           |          1 |          0 |          0 |         -1 |         -1 |
+| ../2022/202212/1225-1231/1226/example/test                                             |          2 |          0 |          0 |         -2 |         -2 |
+| ../2022/202212/1225-1231/1226/jsxLib                                                   |          4 |       -781 |       -178 |       -241 |     -1,200 |
+| ../2022/202212/1225-1231/1226/style                                                    |          2 |       -150 |        -18 |        -51 |       -219 |
+| ../2022/202212/1225-1231/1226/test                                                     |          3 |       -704 |       -178 |       -264 |     -1,146 |
+| api                                                                                    |          1 |         13 |          3 |          4 |         20 |
+| db                                                                                     |          1 |         90 |         25 |         28 |        143 |
+| example                                                                                |         26 |          1 |          1 |         25 |         27 |
+| example/api                                                                            |          2 |          0 |          0 |          2 |          2 |
+| example/db                                                                             |          2 |          0 |          0 |          2 |          2 |
+| example/other                                                                          |         13 |          1 |          1 |         12 |         14 |
+| example/other/jsx                                                                      |          3 |          0 |          0 |          3 |          3 |
+| example/other/other                                                                    |          1 |          1 |          1 |          0 |          2 |
+| example/other/rs                                                                       |          2 |          0 |          0 |          2 |          2 |
+| example/other/sol                                                                      |          2 |          0 |          0 |          2 |          2 |
+| example/other/test                                                                     |          2 |          0 |          0 |          2 |          2 |
+| example/test                                                                           |          2 |          0 |          0 |          2 |          2 |
+| example/view                                                                           |          4 |          0 |          0 |          4 |          4 |
+| example/view/style                                                                     |          2 |          0 |          0 |          2 |          2 |
+| view                                                                                   |          4 |        353 |         62 |         84 |        499 |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                               | language         | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| /Users/user/init/1day10k/1228/api/exress.js                                            | JavaScript       |         13 |          3 |          4 |         20 |
+| /Users/user/init/1day10k/1228/db/sequelize.js                                          | JavaScript       |         90 |         25 |         28 |        143 |
+| /Users/user/init/1day10k/1228/example/api/express.js                                   | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/api/statement.js                                 | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/db/bd.js                                         | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/db/scheme.prisma                                 | Prisma           |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/example.cjs                                      | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/example.jsx                                      | JavaScript React |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/example.ts                                       | TypeScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/example.rs                                 | Rust             |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/example.sol                                | Solidity         |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/example.test.js                            | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/jsx/express.jsx                            | JavaScript React |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/jsx/statement.js                           | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/jsx/statement.jsx                          | JavaScript React |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/other/test.http                            | HTTP             |          1 |          1 |          0 |          2 |
+| /Users/user/init/1day10k/1228/example/other/rs/express.rs                              | Rust             |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/rs/statement.rs                            | Rust             |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/sol/express.sol                            | Solidity         |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/sol/statement.sol                          | Solidity         |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/test/example.rs                            | Rust             |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/other/test/example.test.js                       | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/test/chai.test.js                                | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/test/jest.test.js                                | JavaScript       |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/view/react.jsx                                   | JavaScript React |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/view/recoil.jsx                                  | JavaScript React |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/view/style/example.scss                          | SCSS             |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/example/view/style/styled.css                            | CSS              |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/1228/line.md                                                  | Markdown         |         16 |          0 |          1 |         17 |
+| /Users/user/init/1day10k/1228/view/electron.js                                         | JavaScript       |          7 |          1 |          2 |         10 |
+| /Users/user/init/1day10k/1228/view/next.jsx                                            | JavaScript React |        212 |         41 |         49 |        302 |
+| /Users/user/init/1day10k/1228/view/react.jsx                                           | JavaScript React |        134 |         20 |         32 |        186 |
+| /Users/user/init/1day10k/1228/view/redux.jsx                                           | JavaScript React |          0 |          0 |          1 |          1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/api/apollo.js                      | JavaScript       |       -130 |        -35 |        -35 |       -200 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/api/scoketio.js                    | JavaScript       |        -76 |        -29 |        -46 |       -151 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/db/scheme.prisma                   | Prisma           |        -80 |        -48 |        -29 |       -157 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example.ts                         | TypeScript       |       -438 |        -61 |        -79 |       -578 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/example.cjs                | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/example.jsx                | JavaScript React |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/example.test.js            | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/expressJs/express.js       | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/expressJs/statement.js     | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/jsx/express.js             | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/jsx/express.jsx            | JavaScript React |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/jsx/statement.js           | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/jsx/statement.jsx          | JavaScript React |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/other/example.rs           | Rust             |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/other/example.sol          | Solidity         |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/other/example.test.js      | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/other/rs/express.rs        | Rust             |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/other/rs/statement.rs      | Rust             |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/other/sol/express.sol      | Solidity         |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/other/sol/statement.sol    | Solidity         |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/other/test/example.rs      | Rust             |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/other/test/example.test.js | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/prisma/bd.js               | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/test/chai.test.js          | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/example/test/jest.test.js          | JavaScript       |          0 |          0 |         -1 |         -1 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/jsxLib/next.jsx                    | JavaScript React |       -410 |        -69 |       -115 |       -594 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/jsxLib/react.jsx                   | JavaScript React |       -207 |        -40 |        -51 |       -298 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/jsxLib/recoil.js                   | JavaScript       |        -66 |        -26 |        -39 |       -131 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/jsxLib/redux.jsx                   | JavaScript React |        -98 |        -43 |        -36 |       -177 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/line.md                            | Markdown         |        -16 |          0 |         -1 |        -17 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/style/example.scss                 | SCSS             |        -96 |        -12 |        -32 |       -140 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/style/styledcss.js                 | JavaScript       |        -54 |         -6 |        -19 |        -79 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/test/chai.test.js                  | JavaScript       |        -84 |        -70 |        -72 |       -226 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/test/jest.test.js                  | JavaScript       |       -606 |       -103 |       -185 |       -894 |
+| /Users/user/init/1day10k/2022/202212/1225-1231/1226/test/racttestlib.test.js           | JavaScript       |        -14 |         -5 |         -7 |        -26 |
+| Total                                                                                  |                  |     -1,902 |       -456 |       -625 |     -2,983 |
++----------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
