@@ -1,0 +1,134 @@
+//datasourceとは、Prismaがデータベースに接続するための情報を記述する場所です。
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://johndoe:mypassword@localhost:5432/mydb?schema=public"
+}
+
+//generatorとは、Prismaが生成するコードの設定を記述する場所です。
+generator client {
+  provider = "prisma-client-js"
+}
+
+//generatorのproviderには、Prismaが生成するコードの種類を指定します。
+generator client {
+  provider      = "prisma-client-js"
+  output        = "node_modules/.prisma/client"
+  engineType    = "library"
+  binaryTargets = ["native"]
+}
+
+generator client {
+  provider = "./my-generator"
+}
+
+//modelとは、Prismaが生成するコードの中で、データベースのテーブルに対応するクラスを定義する場所です。
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String
+  posts Post[]
+}
+
+//modelの中で、@idと@default(autoincrement())を指定することで、idカラムがプライマリキーであり、自動採番されることを示しています。
+//また、@uniqueを指定することで、emailカラムがユニーク制約を持つことを示しています。
+model User {
+  email String  @unique // `email` can not be optional because it's the only unique field on the model
+  name  String?
+}
+
+model Star {
+  id       Int                    @id @default(autoincrement())
+  position Unsupported("circle")?
+  example1 Unsupported("circle")
+  circle   Unsupported("circle")? @default(dbgenerated("'<(10,4),11>'::circle"))
+}
+
+model User {
+  id   Int     @id @default(autoincrement())
+  name String?
+}
+
+//@とは、Prismaの機能を指定するための記号です。
+//Prismaの機能を指定するためには、@を記述し、その後に機能名を記述します。
+//?とは、nullを許容することを示す記号です。
+//?を記述することで、nameカラムがnullを許容することを示しています。
+model User {
+  id   Int     @id @default(autoincrement())
+  name String? // `name` can be null
+}
+
+//@idとは、プライマリキーを示す機能です。
+model User {
+  id   Int    @id @default(autoincrement())
+  name String
+}
+
+model User {
+  id   String @id @default(uuid())
+  name String
+}
+
+model Profile {
+  authorId Int    @id
+  author   User   @relation(fields: [authorId], references: [id])
+  bio      String
+}
+
+model User {
+  id      Int      @id
+  email   String   @unique
+  name    String?
+  profile Profile?
+}
+
+//modelの中で、@relationを指定することで、関連付けを行うことができます。
+//fieldsとreferencesを指定することで、authorIdとidを関連付けることができます。
+model Profile {
+  authorId Int    @id
+  author   User   @relation(fields: [authorId], references: [id])
+  bio      String
+}
+
+//@@idとは、プライマリキーを示す機能です。
+//@@uniqueとは、ユニーク制約を示す機能です。
+//@@relationとは、関連付けを示す機能です。
+model User {
+  firstName String
+  lastName  String
+  email     String  @unique
+  isAdmin   Boolean @default(false)
+
+  @@id([firstName, lastName, isAdmin])
+}
+
+model Post {
+  title     String
+  published Boolean @default(false)
+  author    User    @relation(fields: [authorId], references: [id])
+  authorId  Int
+
+  @@id([authorId, title])
+}
+
+model User {
+  id    Int     @default(autoincrement())
+  email String  @unique
+  name  String?
+  posts Post[]
+}
+
+model Post {
+  id        Int     @default(autoincrement())
+  title     String
+  published Boolean @default(false)
+  author    User    @relation(fields: [authorId], references: [id])
+  authorId  Int
+}
+
+id Int @id @default(value: autoincrement())
+id Int @id @default(autoincrement())
+
+model User {
+  email        String @unique
+  profileViews Int    @default(0)
+}

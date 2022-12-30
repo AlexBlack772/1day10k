@@ -1,0 +1,73 @@
+"filename", "language", "JavaScript", "Markdown", "TypeScript", "JavaScript React", "Prisma", "SCSS", "CSS", "Rust", "Solidity", "HTTP", "comment", "blank", "total"
+"/Users/user/init/1day10k/1228/api/exress.js", "JavaScript", -13, 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, -4, -20
+"/Users/user/init/1day10k/1228/db/sequelize.js", "JavaScript", -90, 0, 0, 0, 0, 0, 0, 0, 0, 0, -25, -28, -143
+"/Users/user/init/1day10k/1228/example/api/express.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/api/statement.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/db/bd.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/db/scheme.prisma", "Prisma", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/example.cjs", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/example.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/example.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/example.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/example.sol", "Solidity", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/example.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/jsx/express.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/jsx/statement.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/jsx/statement.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/other/test.http", "HTTP", 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, 0, -2
+"/Users/user/init/1day10k/1228/example/other/rs/express.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/rs/statement.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/sol/express.sol", "Solidity", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/sol/statement.sol", "Solidity", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/test/example.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/other/test/example.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/test/chai.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/test/jest.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/view/react.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/view/recoil.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/view/style/example.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/example/view/style/styled.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1228/line.md", "Markdown", 0, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -17
+"/Users/user/init/1day10k/1228/view/electron.js", "JavaScript", -7, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -2, -10
+"/Users/user/init/1day10k/1228/view/next.jsx", "JavaScript React", 0, 0, 0, -212, 0, 0, 0, 0, 0, 0, -41, -49, -302
+"/Users/user/init/1day10k/1228/view/react.jsx", "JavaScript React", 0, 0, 0, -134, 0, 0, 0, 0, 0, 0, -20, -32, -186
+"/Users/user/init/1day10k/1228/view/redux.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"/Users/user/init/1day10k/1229/api/apollo.js", "JavaScript", 281, 0, 0, 0, 0, 0, 0, 0, 0, 0, 66, 79, 426
+"/Users/user/init/1day10k/1229/api/express.js", "JavaScript", 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 2, 38
+"/Users/user/init/1day10k/1229/api/socketio.js", "JavaScript", 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 54, 57, 186
+"/Users/user/init/1day10k/1229/db/scheme.prisma", "Prisma", 0, 0, 0, 0, 97, 0, 0, 0, 0, 0, 16, 21, 134
+"/Users/user/init/1day10k/1229/db/sequelize.js", "JavaScript", 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 25, 139
+"/Users/user/init/1day10k/1229/example/api/express.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/api/statement.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/db/bd.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/db/prisma/scheme.prisma", "Prisma", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/example.cjs", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/example.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/example.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/api/rs/example.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/api/rs/express.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/api/rs/statement.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/api/sol/example.sol", "Solidity", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/api/sol/express.sol", "Solidity", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/api/sol/statement.sol", "Solidity", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/db/prisma/scheme.prisma", "Prisma", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/other/test.http", "HTTP", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 2
+"/Users/user/init/1day10k/1229/example/other/test/example.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/view/react/statement.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/view/react/statement.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/other/view/style/style.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/test/chai.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/test/jest.test.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/view/react/react.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/view/react/recoil.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/view/style/example.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/example/view/style/styled.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/jest.test.js", "JavaScript", 95, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 19, 123
+"/Users/user/init/1day10k/1229/line.md", "Markdown", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17
+"/Users/user/init/1day10k/1229/nest.ts", "TypeScript", 0, 0, 134, 0, 0, 0, 0, 0, 0, 0, 19, 33, 186
+"/Users/user/init/1day10k/1229/next.jsx", "JavaScript React", 0, 0, 0, 133, 0, 0, 0, 0, 0, 0, 60, 35, 228
+"/Users/user/init/1day10k/1229/typescript.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/user/init/1day10k/1229/view/react.jsx", "JavaScript React", 0, 0, 0, 107, 0, 0, 0, 0, 0, 0, 28, 33, 168
+"/Users/user/init/1day10k/1229/view/recoil.jsx", "JavaScript React", 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 4, 8, 21
+"/Users/user/init/1day10k/1229/view/redux.jsx", "JavaScript React", 0, 0, 0, 169, 0, 0, 0, 0, 0, 0, 48, 51, 268
+"Total", "-", 443, 0, 134, 72, 97, 0, 0, 0, 0, 0, 262, 247, 1255
