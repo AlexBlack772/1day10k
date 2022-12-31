@@ -1,0 +1,98 @@
+//datasourceとは、Prismaがデータベースに接続するための情報を記述する場所です。Prismaは、データベースに接続するために、データベースの種類、ホスト、ポート、ユーザー名、パスワード、データベース名、スキーマ名などの情報を必要とします。この情報は、datasourceブロックで記述します。
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://johndoe:mypassword@localhost:5432/mydb?schema=public"
+}
+
+//generatorとは、Prismaが生成するコードの設定を記述する場所です。
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator client {
+  provider      = "prisma-client-js"
+  output        = "node_modules/.prisma/client"
+  engineType    = "library"
+  binaryTargets = ["native"]
+}
+
+//modelとは、Prismaが生成するモデルの設定を記述する場所です。
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String
+  posts Post[]
+}
+
+//@idとは、モデルのプライマリキーを表します。
+model User {
+  id             Int      @id @default(autoincrement())
+  favoriteColors String[]
+}
+
+//?とは、オプショナルなフィールドを表します。
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String?
+  posts Post[]
+}
+
+//@defaultとは、デフォルト値を表します。
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String @default("John Doe")
+  posts Post[]
+}
+
+//@uniqueとは、ユニークなフィールドを表します。
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String
+  posts Post[]
+}
+
+
+model User {
+  firstName String
+  lastName  String
+  email     String  @unique
+  isAdmin   Boolean @default(false)
+
+  @@id([firstName, lastName])
+}
+
+//@defaultとは、デフォルト値を表します。
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String @default("John Doe")
+  posts Post[]
+}
+
+model User {
+  email String   @unique
+  data  DateTime @default("2020-03-19T14:21:00+02:00")
+}
+
+model User {
+  firstname Int
+  lastname  Int
+  id        Int?
+
+  @@unique([firstname, lastname, id])
+}
+
+//＠@indexとは、インデックスを表します。
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  name  String
+  posts Post[]
+
+  @@index([email, name])
+}
+
+//＠@relationとは、リレーションを表します。
