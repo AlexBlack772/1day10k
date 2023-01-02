@@ -1,0 +1,20 @@
+//datasourceとは、Prismaがデータベースに接続するための情報を格納する場所です。
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+//generatorとは、Prismaが生成するコードの設定を格納する場所です。
+generator client {
+  provider      = "prisma-client-js"
+  output        = "node_modules/.prisma/client"
+  engineType    = "library"
+  binaryTargets = ["native"]
+}
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["debian-openssl-1.1.x"]
+}
+
+//modelとは、Prismaがデータベースのテーブルに対応するモデルを定義する場所です。
