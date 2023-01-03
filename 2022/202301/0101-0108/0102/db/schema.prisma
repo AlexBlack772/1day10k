@@ -1,0 +1,115 @@
+//modelとは、データベースのテーブルを表すものです。
+model User {
+  id           Int              @id @default(autoincrement())
+  name         String?
+  email        String           @unique
+  profileViews Int              @default(0)
+  role         Role             @default(USER)
+  coinflips    Boolean[]
+  posts        Post[]
+  city         String
+  country      String
+  profile      ExtendedProfile?
+  pets         Json
+}
+
+model ExtendedProfile {
+  id     Int     @id @default(autoincrement())
+  userId Int?    @unique
+  bio    String?
+  User   User?   @relation(fields: [userId], references: [id])
+}
+
+model Post {
+  id        Int     @id @default(autoincrement())
+  title     String
+  published Boolean @default(true)
+  author    User    @relation(fields: [authorId], references: [id])
+  authorId  Int
+  comments  Json
+  views     Int     @default(0)
+  likes     Int     @default(0)
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+//datasourceとは、データベースの接続情報を表すものです。
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://johndoe:mypassword@localhost:5432/mydb?schema=public"
+}
+
+//generatorとは、Prisma Clientを生成するための設定を表すものです。
+generator client {
+  provider      = "prisma-client-js"
+  output        = "node_modules/.prisma/client"
+  engineType    = "library"
+  binaryTargets = ["native"]
+}
+
+//?は、nullを許容することを表します。
+model User {
+  id             Int      @id @default(autoincrement())
+  favoriteColors String[] @default(["red", "blue", "green"])
+}
+
+//@relationは、リレーションを表します。
+model Profile {
+  authorId Int    @id
+  author   User   @relation(fields: [authorId], references: [id])
+  bio      String
+}
+
+model User {
+  id      Int      @id
+  email   String   @unique
+  name    String?
+  profile Profile?
+}
+
+//@@idは、複合キーを表します。
+model User {
+  id      Int      @id
+  email   String   @unique
+  name    String?
+  profile Profile? @relation(fields: [id], references: [authorId])
+}
+
+
+//@@idとは、複合キーを表します。
+model User {
+  firstName String
+  lastName  String
+  email     String  @unique
+  isAdmin   Boolean @default(false)
+
+  @@id([firstName, lastName])
+}
+
+model User {
+  firstName String
+  lastName  String
+  email     String  @unique
+  isAdmin   Boolean @default(false)
+
+  @@id([firstName, lastName, isAdmin])
+}
+
+model Post {
+  title     String
+  published Boolean @default(false)
+  author    User    @relation(fields: [authorId], references: [id])
+  authorId  Int
+
+  @@id([authorId, title])
+}
+
+model User {
+  id    Int     @default(autoincrement())
+  email String  @unique
+  name  String?
+  posts Post[]
+}
