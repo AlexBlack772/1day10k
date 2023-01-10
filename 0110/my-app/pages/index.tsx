@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
+//import ActiveLink from '../components/ActiveLink'
+
 export default function Home() {
   return (
     <>
@@ -116,6 +118,7 @@ export default function Home() {
               with&nbsp;Vercel.
             </p>
           </a>
+          <ActiveLink></ActiveLink>
         </div>
       </main>
     </>
