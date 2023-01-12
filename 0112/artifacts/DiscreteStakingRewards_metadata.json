@@ -179,11 +179,11 @@
 	},
 	"sources": {
 		"0112/discrteStaking.sol": {
-			"keccak256": "0xef308694742db4888d2f8d3a26368931edd7e94e57afa638ec3fd818f61b9e5c",
+			"keccak256": "0x851f7ce619d6682350271142ebfd1160e33a23bd31f21476a90baab7a8b005dd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20c53d0db789c28583d3f6d21f693888f077b04ca7576a003bc1ce0bb8186a20",
-				"dweb:/ipfs/QmevrZYoEDKArcFgtWMDMcp6kWc5adEy5qkvb3rSWfavdT"
+				"bzz-raw://2bc3e0772fdef0b0097bc1b1b68960a1eec082767729d7731cc7e38478cde34f",
+				"dweb:/ipfs/QmQ9bvUgkgRjxMe8xSZSfJzEPb8nmnacbSodkvAACZMunW"
 			]
 		}
 	},

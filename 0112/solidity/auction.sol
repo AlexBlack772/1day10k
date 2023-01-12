@@ -4,6 +4,7 @@ contract SimpleAuction {
     // Parameters of the auction. Times are either
     // absolute unix timestamps (seconds since 1970-01-01)
     // or time periods in seconds.
+    //beneficiaryとは、このオークションの受益者を表します。このアドレスには、オークションの最高額の入札が送金されます。
     address payable public beneficiary;
     uint public auctionEndTime;
 
@@ -19,6 +20,7 @@ contract SimpleAuction {
     bool ended;
 
     // Events that will be emitted on changes.
+    //HighestBidIncreasedとは、オークションの最高額の入札が更新されたときに発行されるイベントです。
     event HighestBidIncreased(address bidder, uint amount);
     event AuctionEnded(address winner, uint amount);
 
@@ -85,6 +87,7 @@ contract SimpleAuction {
             // before `send` returns.
             pendingReturns[msg.sender] = 0;
 
+            //msg.senderとは、現在のコントラクトを呼び出しているアドレスを表します。
             if (!msg.sender.send(amount)) {
                 // No need to call throw here, just reset the amount owing
                 pendingReturns[msg.sender] = amount;
@@ -116,6 +119,7 @@ contract SimpleAuction {
 
         // 2. Effects
         ended = true;
+        //emitとは、イベントを発行するための命令です。イベントは、ブロックチェーン上に記録されますが、トランザクションとは異なり、ブロックチェーンに記録されるだけで、コントラクトの状態を変更することはありません。
         emit AuctionEnded(highestBidder, highestBid);
 
         // 3. Interaction
