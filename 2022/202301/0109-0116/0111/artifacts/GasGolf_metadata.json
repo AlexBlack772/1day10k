@@ -8,19 +8,27 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
+						"internalType": "uint256[]",
+						"name": "nums",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sumIfEvenAndLessThan99",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "total",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "transfer",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -37,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"0111/abiencode.sol": "IERC20"
+			"0111/gas.sol": "GasGolf"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -51,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"0111/abiencode.sol": {
-			"keccak256": "0x2a5ca563e67dd64b5b976b5347af36f62bbf2c9455bfc44cde23cde372e8e7e8",
+		"0111/gas.sol": {
+			"keccak256": "0x4288f1bee2f2eca980f11abd950fada8e19b3c884fadd119697819348e8fa044",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fde9be8a539ed0fa5bb864ca078ffdf181abc5013dd3f11ad4403a27d6aafc1f",
-				"dweb:/ipfs/QmSMs3CZrt682gjyoXSjxSZDQX4ep9FX9K65gpDcHmA8WJ"
+				"bzz-raw://dc18ca87be6759513aea5e1a81068f8ba7f5d1dc810b1b1b8bcb5097eb26cd58",
+				"dweb:/ipfs/QmaatwQG4GqzTwz11VivXrNsgEfcKQEAb6XFYzvgtriytg"
 			]
 		}
 	},
