@@ -1,0 +1,209 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "InvalidState",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "OnlyBuyer",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "OnlySeller",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "ValueNotEven",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "Aborted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "ItemReceived",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "PurchaseConfirmed",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "SellerRefunded",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "abort",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "buyer",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "confirmPurchase",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "confirmReceived",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "refundSeller",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "seller",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum Purchase.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"errors": {
+				"InvalidState()": [
+					{
+						"notice": "現在の状態では、この関数を呼び出すことはできません。"
+					}
+				],
+				"OnlyBuyer()": [
+					{
+						"notice": "買い手だけがこの機能を呼び出すことができます。"
+					}
+				],
+				"OnlySeller()": [
+					{
+						"notice": "売り手だけがこの機能を呼び出すことができます。"
+					}
+				],
+				"ValueNotEven()": [
+					{
+						"notice": "提供される値は偶数でなければなりません。"
+					}
+				]
+			},
+			"kind": "user",
+			"methods": {
+				"abort()": {
+					"notice": "購入を中止し、Etherを再クレームします。 コントラクトがロックされる前に売り手によってのみ呼び出すことができます。"
+				},
+				"confirmPurchase()": {
+					"notice": "買い手として購入を確認します。 取引には `2 * value` のEtherが含まれていなければなりません。 Etherは confirmReceived が呼ばれるまでロックされます。"
+				},
+				"confirmReceived()": {
+					"notice": "あなた（買い手）が商品を受け取ったことを確認します。 これにより、ロックされていたEtherが解除されます。"
+				},
+				"refundSeller()": {
+					"notice": "この機能は、売り手に返金する、つまり売り手のロックされた資金を払い戻すものです。"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"0113/mvc/solidity/exam.sol": "Purchase"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"0113/mvc/solidity/exam.sol": {
+			"keccak256": "0xf9d12a7f3c17ee3a773e7e7992c821153a7afba8d812973ba139af580fd1cd95",
+			"urls": [
+				"bzz-raw://58ad664328b2da2d757a9f97261fea8f95f0a6442fcc7aa1f0a81eb1d0034c07",
+				"dweb:/ipfs/QmWsT4AfXauDjFFbBhV2mzcE1TxuB5KdZgwEJ2FMiGW5mi"
+			]
+		}
+	},
+	"version": 1
+}
