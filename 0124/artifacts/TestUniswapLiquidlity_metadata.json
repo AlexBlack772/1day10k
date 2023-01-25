@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"0124/exam.sol": "TestUniswapLiquidlity"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"0124/exam.sol": {
+			"keccak256": "0xb7beffd589fc3924814437ad709152e51a55bb6c7823fe6d3054d4d0f523b2be",
+			"urls": [
+				"bzz-raw://d17a1a451fdb8f526c63a2b0f5e84167ffe4645f6b4b9cae29516497e0936c61",
+				"dweb:/ipfs/QmU4aQfBNqpUmKmgYCmT3szwSrFdA6rdbjkhEynamq3V8o"
+			]
+		}
+	},
+	"version": 1
+}
