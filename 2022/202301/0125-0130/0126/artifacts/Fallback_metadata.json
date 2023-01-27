@@ -11,19 +11,39 @@
 					{
 						"indexed": false,
 						"internalType": "string",
-						"name": "message",
+						"name": "func",
 						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
 					}
 				],
 				"name": "Log",
 				"type": "event"
 			},
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [],
-				"name": "foo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -39,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"0126/daikokuya.sol": "Shop"
+			"0126/daikokuya.sol": "Fallback"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -54,11 +74,11 @@
 	},
 	"sources": {
 		"0126/daikokuya.sol": {
-			"keccak256": "0x56c740b2a94b743b0210c7eacab0e4e888773382b46b55ee644d0d8b9abf2b68",
+			"keccak256": "0x6a8d36c496bf459c633c795f03a3abfab9c65b8d1192d48f567cca7f098a4f87",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2927445c2337b761d21b63131bf829cc02b3351dda33132283881b3ca20006fd",
-				"dweb:/ipfs/QmXPe1nFJcJKNYHcmxRRzchW37hSVq1LCA2ecALVexCRnW"
+				"bzz-raw://e5b672197d162f0b29e262f8951401dbed59110ce6895355c370eec2a50f157e",
+				"dweb:/ipfs/QmY8MiNDK5StGpmy2Pr5VCbGACh3qK1MJPTh44pxgjQ8ph"
 			]
 		}
 	},

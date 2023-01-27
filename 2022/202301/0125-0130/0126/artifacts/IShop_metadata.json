@@ -41,11 +41,11 @@
 	},
 	"sources": {
 		"0126/daikokuya.sol": {
-			"keccak256": "0x56c740b2a94b743b0210c7eacab0e4e888773382b46b55ee644d0d8b9abf2b68",
+			"keccak256": "0x9bc2c34b71b68c05a536841b0746b76428153f3f174bbc64e95ae9302f7e3903",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2927445c2337b761d21b63131bf829cc02b3351dda33132283881b3ca20006fd",
-				"dweb:/ipfs/QmXPe1nFJcJKNYHcmxRRzchW37hSVq1LCA2ecALVexCRnW"
+				"bzz-raw://ac5af1d74cac72cdf40302440f0f05da6139ead67f2284b2938fe908c8c769bb",
+				"dweb:/ipfs/QmUKM9NWUfKXXYic35k1gzb7V3NcJC8re1kMhDgFGffUor"
 			]
 		}
 	},

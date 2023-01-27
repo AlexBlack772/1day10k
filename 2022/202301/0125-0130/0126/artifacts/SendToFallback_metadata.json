@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "callFallback",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "transferToFallback",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"0126/daikokuya.sol": "SendToFallback"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"0126/daikokuya.sol": {
+			"keccak256": "0x6a8d36c496bf459c633c795f03a3abfab9c65b8d1192d48f567cca7f098a4f87",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e5b672197d162f0b29e262f8951401dbed59110ce6895355c370eec2a50f157e",
+				"dweb:/ipfs/QmY8MiNDK5StGpmy2Pr5VCbGACh3qK1MJPTh44pxgjQ8ph"
+			]
+		}
+	},
+	"version": 1
+}
