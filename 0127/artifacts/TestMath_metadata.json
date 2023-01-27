@@ -6,10 +6,22 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "testSquareRoot",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -26,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"0127/daikokuya.sol": "IShop"
+			"0127/daikokuya.sol": "TestMath"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -41,11 +53,11 @@
 	},
 	"sources": {
 		"0127/daikokuya.sol": {
-			"keccak256": "0x05c57666e3a2da62df39c65939e442fcc0333405dd76ea47ff1025811ae74e95",
+			"keccak256": "0xefe8d737ed90df20290a39db2fbf099a59504e84b2c82faca58093060d9845ec",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a3c019349cd434f93f25489815ddac8ec9709fbf90c6961f5bbc9e49364a93e6",
-				"dweb:/ipfs/QmUL3SYy5D42vGhKA99srxXDQsGLx77VNehSw9apGL9nPv"
+				"bzz-raw://1f14aebb6f7f909d297dce4387e65a65514cd60f2f87be4db3bb1756acb87063",
+				"dweb:/ipfs/QmTYAGMtkex1KGMJaG7nei7sKf9VbTVKLqYbR6FHNjpNVR"
 			]
 		}
 	},
