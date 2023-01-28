@@ -159,11 +159,11 @@
 	},
 	"sources": {
 		"0127/daikokuya.sol": {
-			"keccak256": "0xefe8d737ed90df20290a39db2fbf099a59504e84b2c82faca58093060d9845ec",
+			"keccak256": "0x30ac2df97582f010ffb52f6d59cf8548e1994cb7dafe12a2931b320527c2adf9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1f14aebb6f7f909d297dce4387e65a65514cd60f2f87be4db3bb1756acb87063",
-				"dweb:/ipfs/QmTYAGMtkex1KGMJaG7nei7sKf9VbTVKLqYbR6FHNjpNVR"
+				"bzz-raw://5f9a3c8539ce5645c7e6debc449d6107cc25017608ff35d501e8e8a0725d6970",
+				"dweb:/ipfs/QmRpK4xZ35cXdyPG2TtqkD7ndk89fuyKMgts4HAUtzxL9s"
 			]
 		}
 	},

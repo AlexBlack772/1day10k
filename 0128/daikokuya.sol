@@ -3,70 +3,38 @@ pragma solidity ^0.8.17;
 
 //import "/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 
-library Math {
-    function sqrt(uint y) internal pure returns (uint z) {
-        if (y > 3) {
-            z = y;
-            uint x = y / 2 + 1;
-            while (x < z) {
-                z = x;
-                x = (y / x + x) / 2;
-            }
-        } else if (y != 0) {
-            z = 1;
-        }
-        // else z = 0 (default value)
+contract HashFunction {
+    function hash(
+        string memory _text,
+        uint _num,
+        address _addr
+    ) public pure returns (bytes32) {
+        return keccak256(abi.encodePacked(_text, _num, _addr));
+    }
+
+    // Example of hash collision
+    // Hash collision can occur when you pass more than one dynamic data type
+    // to abi.encodePacked. In such case, you should use abi.encode instead.
+    function collision(
+        string memory _text,
+        string memory _anotherText
+    ) public pure returns (bytes32) {
+        // encodePacked(AAA, BBB) -> AAABBB
+        // encodePacked(AA, ABBB) -> AAABBB
+        return keccak256(abi.encodePacked(_text, _anotherText));
     }
 }
 
-contract TestMath {
-    function testSquareRoot(uint x) public pure returns (uint) {
-        return Math.sqrt(x);
+contract GuessTheMagicWord {
+    bytes32 public answer =
+        0x60298f78cc0b47170ba79c10aa3851d7648bd96f2f8e46a19dbc777c36fb0c00;
+
+    // Magic word is "Solidity"
+    function guess(string memory _word) public view returns (bool) {
+        return keccak256(abi.encodePacked(_word)) == answer;
     }
 }
 
-// Array function to delete element at index and re-organize the array
-// so that there are no gaps between the elements.
-library Array {
-    function remove(uint[] storage arr, uint index) public {
-        // Move the last element into the place to delete
-        require(arr.length > 0, "Can't remove from empty array");
-        arr[index] = arr[arr.length - 1];
-        arr.pop();
-    }
-}
-
-contract TestArray {
-    using Array for uint[];
-
-    uint[] public arr;
-
-    function testArrayRemove() public {
-        for (uint i = 0; i < 3; i++) {
-            arr.push(i);
-        }
-
-        arr.remove(1);
-
-        assert(arr.length == 2);
-        assert(arr[0] == 0);
-        assert(arr[1] == 2);
-    }
-}
-
-/*
-interface IShop {
-    function foo() external;
-}
-
-contract Shop {
-   event Log(string message);
-
-    function foo() external virtual {
-        emit Log("A.foo called");
-    }
-}
-*/
 contract Daikokuya  {
     uint public test = 100;
 
@@ -243,6 +211,20 @@ contract Users {
         user.age = _age;
     }
 }
+
+/*
+interface IShop {
+    function foo() external;
+}
+
+contract Shop {
+   event Log(string message);
+
+    function foo() external virtual {
+        emit Log("A.foo called");
+    }
+}
+*/
 
 /*
 contract Product {

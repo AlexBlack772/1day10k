@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"0127/daikokuya.sol": "Token"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"0127/daikokuya.sol": {
+			"keccak256": "0x94846a7df90a4043f4a0d785068386b0672afe5b20d85884478c27a4a47aa1e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b973f6fb5959f97ac16db04d770b6b0409f4d031a0b0f8b241ac29cec1d2343b",
+				"dweb:/ipfs/QmRxRPytAH4xEa1wMzUPfUVtxNJHrqJ5p8tDcYzV4VktY5"
+			]
+		}
+	},
+	"version": 1
+}
