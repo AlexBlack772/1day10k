@@ -3,35 +3,71 @@ pragma solidity ^0.8.17;
 
 //import "/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 
-contract HashFunction {
-    function hash(
-        string memory _text,
-        uint _num,
-        address _addr
-    ) public pure returns (bytes32) {
-        return keccak256(abi.encodePacked(_text, _num, _addr));
-    }
+// https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.0.0/contracts/token/ERC20/IERC20.sol
+interface IERC20 {
+    function totalSupply() external view returns (uint);
 
-    // Example of hash collision
-    // Hash collision can occur when you pass more than one dynamic data type
-    // to abi.encodePacked. In such case, you should use abi.encode instead.
-    function collision(
-        string memory _text,
-        string memory _anotherText
-    ) public pure returns (bytes32) {
-        // encodePacked(AAA, BBB) -> AAABBB
-        // encodePacked(AA, ABBB) -> AAABBB
-        return keccak256(abi.encodePacked(_text, _anotherText));
-    }
+    function balanceOf(address account) external view returns (uint);
+
+    function transfer(address recipient, uint amount) external returns (bool);
+
+    function allowance(address owner, address spender) external view returns (uint);
+
+    function approve(address spender, uint amount) external returns (bool);
+
+    function transferFrom(
+        address sender,
+        address recipient,
+        uint amount
+    ) external returns (bool);
+
+    event Transfer(address indexed from, address indexed to, uint value);
+    event Approval(address indexed owner, address indexed spender, uint value);
 }
 
-contract GuessTheMagicWord {
-    bytes32 public answer =
-        0x60298f78cc0b47170ba79c10aa3851d7648bd96f2f8e46a19dbc777c36fb0c00;
+contract ERC20 is IERC20 {
+    uint public totalSupply;
+    mapping(address => uint) public balanceOf;
+    mapping(address => mapping(address => uint)) public allowance;
+    string public name = "Solidity by Example";
+    string public symbol = "SOLBYEX";
+    uint8 public decimals = 18;
 
-    // Magic word is "Solidity"
-    function guess(string memory _word) public view returns (bool) {
-        return keccak256(abi.encodePacked(_word)) == answer;
+    function transfer(address recipient, uint amount) external returns (bool) {
+        balanceOf[msg.sender] -= amount;
+        balanceOf[recipient] += amount;
+        emit Transfer(msg.sender, recipient, amount);
+        return true;
+    }
+
+    function approve(address spender, uint amount) external returns (bool) {
+        allowance[msg.sender][spender] = amount;
+        emit Approval(msg.sender, spender, amount);
+        return true;
+    }
+
+    function transferFrom(
+        address sender,
+        address recipient,
+        uint amount
+    ) external returns (bool) {
+        allowance[sender][msg.sender] -= amount;
+        balanceOf[sender] -= amount;
+        balanceOf[recipient] += amount;
+        emit Transfer(sender, recipient, amount);
+        return true;
+    }
+
+    function mint(uint amount) external {
+        balanceOf[msg.sender] += amount;
+        totalSupply += amount;
+        emit Transfer(address(0), msg.sender, amount);
+    }
+
+    function burn(uint amount) external {
+        balanceOf[msg.sender] -= amount;
+        totalSupply -= amount;
+        emit Transfer(msg.sender, address(0), amount);
     }
 }
 
